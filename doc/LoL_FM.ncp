@@ -1,13 +1,13 @@
 <Project>
   <Name>LoL_FM</Name>
   <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
-    <Name>Untitled</Name>
+    <Name>UML</Name>
     <Language>CSharp</Language>
     <Entities>
       <Entity type="Class">
         <Name>ApiEndpoint</Name>
         <Access>Public</Access>
-        <Location left="84" top="403" />
+        <Location left="85" top="403" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">String api_key</Member>
@@ -22,13 +22,14 @@
         <Location left="470" top="403" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
-        <Member type="Method">public Response perform_request()</Member>
+        <Member type="Method">public void perform_request()</Member>
+        <Member type="Method">public Response retrieveResponse()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Service</Name>
         <Access>Public</Access>
-        <Location left="84" top="702" />
+        <Location left="85" top="702" />
         <Size width="162" height="116" />
         <Collapsed>False</Collapsed>
         <Member type="Field">String title</Member>
@@ -38,7 +39,7 @@
       <Entity type="Class">
         <Name>RequestManager</Name>
         <Access>Public</Access>
-        <Location left="470" top="88" />
+        <Location left="85" top="103" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">int allowed_requests</Member>
@@ -47,12 +48,13 @@
         <Member type="Method">public void stop()</Member>
         <Member type="Method">public boolean get_run_status()</Member>
         <Member type="Method">public boolean has_requests_left()</Member>
+        <Member type="Method">public void replenish_requests()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>HttpRequestClass</Name>
         <Access>Public</Access>
-        <Location left="343" top="699" />
+        <Location left="342" top="702" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Modifier>None</Modifier>
@@ -64,6 +66,22 @@
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">String response_body</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ResponseProcessor</Name>
+        <Access>Public</Access>
+        <Location left="780" top="403" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Persistence</Name>
+        <Access>Public</Access>
+        <Location left="854" top="702" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
         <Modifier>None</Modifier>
       </Entity>
     </Entities>
@@ -101,6 +119,22 @@
         <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="5" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="6">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="7" second="6">
         <Label>
         </Label>
         <StartOrientation>Vertical</StartOrientation>
