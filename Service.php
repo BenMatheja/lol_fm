@@ -5,9 +5,7 @@
 */
 abstract class Service{
 
-	abstract public function get_title();
-
-	abstract public function get_uri();
+	abstract public function create_service_uri();
 
 	abstract public function bind_param();
 

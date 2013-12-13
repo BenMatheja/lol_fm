@@ -2,4 +2,27 @@
 API-KEY
 
 50 req every 10 min
+<<<<<<< HEAD
 5 req every 10 sec 
+=======
+5 req every 10 sec
+
+
+RULES ARE MADE TO BE BROKEN 
+
+
+OR BUILDINGS
+
+
+
+
+
+
+
+
+
+
+
+
+OR PEOPLE O_O
+>>>>>>> cc71ec47997492d0dff9479d6eadf9a564706186

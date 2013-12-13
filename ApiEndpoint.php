@@ -1,11 +1,13 @@
 <?php
 require 'Serivce.php';
+require '../services/*.php';
 
 class ApiEndpoint {
 	private $api_key = "35da3603-59cc-4b24-8b87-8accc987c528";
 	private $registered_services;
 	//http://prod.api.pvp.net/api/lol/na/v1.1/summoner/by-name/RiotSchmick?api_key=<key>
 	private $api_head = "http://prod.api.pvp.net/api/lol/euw";
+	private $api_tail = "?api_key=";
 
 	public function __construct(){
 		$this->registered_services = array();
@@ -16,13 +18,13 @@ class ApiEndpoint {
 	* with a shorthandle
 	* $registered_services['sum_last_game'] e.g.
 	*/
-	public function add_service($title, $uri, $shorthandle){
+	public function add_service($shorthandle){
 		if(!array_key_exists($shorthandle, $registered_services)){
-			$service = new Service($title,$uri);
+			$service = new $shorthandle();
 			$this->registered_services[$shorthandle] = $service;
+			return true;
 		}
-		else
-			echo "used shorthandle is already set";
+		else return false;
 	}
 
 	private function get_service_by_shorthand($shorthandle){
@@ -33,9 +35,10 @@ class ApiEndpoint {
 	}
 
 	public function build_query_string($service){
-		$uri = $service->getUri();
-		$query_string = 
-
+		if($uri = $service->create_service_uri()){
+			return $api_head.$uri.$api_tail.$api_key;
+		}
+		else return false;
 	}
 
 //extend service by required
