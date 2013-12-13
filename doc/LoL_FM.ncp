@@ -27,13 +27,17 @@
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>Service</Name>
+        <Name>RecentGames</Name>
         <Access>Public</Access>
-        <Location left="85" top="702" />
-        <Size width="162" height="116" />
+        <Location left="85" top="673" />
+        <Size width="162" height="179" />
         <Collapsed>False</Collapsed>
-        <Member type="Field">String title</Member>
-        <Member type="Field">String uri</Member>
+        <Member type="Field">int summoner_id</Member>
+        <Member type="Field">boolean id_set</Member>
+        <Member type="Field">String uri_head</Member>
+        <Member type="Field">String uri_tail</Member>
+        <Member type="Method">public void bindParam()</Member>
+        <Member type="Method">public String create_service_uri()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -52,17 +56,17 @@
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>HttpRequestClass</Name>
+        <Name>curl</Name>
         <Access>Public</Access>
         <Location left="342" top="702" />
-        <Size width="162" height="216" />
+        <Size width="162" height="77" />
         <Collapsed>False</Collapsed>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Response</Name>
         <Access>Public</Access>
-        <Location left="593" top="702" />
+        <Location left="574" top="702" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">String response_body</Member>
@@ -71,7 +75,7 @@
       <Entity type="Class">
         <Name>ResponseProcessor</Name>
         <Access>Public</Access>
-        <Location left="780" top="403" />
+        <Location left="813" top="403" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Modifier>None</Modifier>
@@ -79,10 +83,20 @@
       <Entity type="Class">
         <Name>Persistence</Name>
         <Access>Public</Access>
-        <Location left="854" top="702" />
+        <Location left="813" top="702" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Service</Name>
+        <Access>Public</Access>
+        <Location left="342" top="980" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public abstract void create_service_ur()</Member>
+        <Member type="Method">public abstract void bind_param()</Member>
+        <Modifier>Abstract</Modifier>
       </Entity>
     </Entities>
     <Relationships>
@@ -141,6 +155,14 @@
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Generalization" first="8" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>265</X>
+          <Y>947</Y>
+        </BendPoint>
       </Relationship>
     </Relationships>
   </ProjectItem>
