@@ -1,0 +1,15 @@
+{
+    "name": "suchtundordnung/lol_fm",
+    "description": "LoL FM social game monitoring",
+    "require": {
+        "apache/log4php": "2"
+    },
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "BenMatheja",
+            "email": "bennimatheja@online.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}

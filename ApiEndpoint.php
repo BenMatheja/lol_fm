@@ -1,6 +1,7 @@
 <?php
 require 'Service.php';
 require 'services/RecentGames.php';
+require 'config/config.php';
 
 class ApiEndpoint {
 	private $api_key;
@@ -14,6 +15,7 @@ class ApiEndpoint {
 		$this->api_key =  "35da3603-59cc-4b24-8b87-8accc987c528";
 		$this->api_head = "http://prod.api.pvp.net/api/lol/euw";
 		$this->api_tail = "?api_key=";
+		//$this->log = Logger::getLogger(__CLASS__);
 	}
 	/**
 	* Services are stored in registered services
@@ -32,13 +34,12 @@ class ApiEndpoint {
 	public function get_service_by_shorthand($shorthandle){
 		if(array_key_exists($shorthandle, $this->registered_services))
 			return $this->registered_services[$shorthandle];
-		else
-			echo "registered service is not avl";
+			//$this->log->warn("registered service is not avl");
 	}
 
 	public function build_query_string($service){
 		if($uri = $service->create_service_uri()){
-			echo $this->api_head.$uri.$this->api_tail.$this->api_key;
+			//$this->log->info($this->api_head.$uri.$this->api_tail.$this->api_key);
 			return $this->api_head.$uri.$this->api_tail.$this->api_key;
 		}
 		else return false;

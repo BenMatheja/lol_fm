@@ -1,5 +1,7 @@
 <?php
 require 'ApiEndpoint.php';
+require 'config/config.php';
+require 'ResponseProcessor.php';
 class Request{
 	private $apiE;
 
@@ -18,7 +20,9 @@ class Request{
 		$ch = curl_init();
 		$options = array(
 			CURLOPT_URL => $querystring,
-			CURLOPT_HEADER => false);
+			CURLOPT_HEADER => false,
+			CURLOPT_MUTE => true
+			);
 		curl_setopt_array($ch,$options);
 
 		if(! $result = curl_exec($ch)){
@@ -35,8 +39,11 @@ class Request{
 */
 $apiE = new ApiEndpoint();
 $request = new Request($apiE);
+$rp = new ResponseProcessor();
 $apiE->add_service('RecentGames');
-$request->performRequest($request->buildRequest('RecentGames',23107213));
+$data = $rp->process($request->performRequest($request->buildRequest('RecentGames',23107213)));
+
+var_dump ($data[0]);
 
 ?>
 
