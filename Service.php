@@ -1,18 +1,15 @@
 <?php
-class Service{
-	private $title;
-	private $uri;
+/**
+* Abstract Service class
+* defines shared behaviour for pluggable services
+*/
+abstract class Service{
 
-	public function __construct($title, $uri){
-	$this->title = $title;
-	$this->uri = $uri;
-	}
+	abstract public function get_title();
 
-	public function getTitle(){
-		return $this->title;
-	}
+	abstract public function get_uri();
 
-	public function getUri(){
-		return $this->uri;
-	}
+	abstract public function bind_param();
+
 }
+?>

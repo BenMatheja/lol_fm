@@ -2,4 +2,4 @@
 API-KEY
 
 50 req every 10 min
-5 req every 10 sec
+5 req every 10 sec 

@@ -4,6 +4,8 @@ require 'Serivce.php';
 class ApiEndpoint {
 	private $api_key = "35da3603-59cc-4b24-8b87-8accc987c528";
 	private $registered_services;
+	//http://prod.api.pvp.net/api/lol/na/v1.1/summoner/by-name/RiotSchmick?api_key=<key>
+	private $api_head = "http://prod.api.pvp.net/api/lol/euw";
 
 	public function __construct(){
 		$this->registered_services = array();
@@ -23,13 +25,20 @@ class ApiEndpoint {
 			echo "used shorthandle is already set";
 	}
 
-	public function get_service_by_id($id){
-		if(array_key_exists($id, $registered_services))
-			return $this->registered_services[$id];
+	private function get_service_by_shorthand($shorthandle){
+		if(array_key_exists($shorthandle, $registered_services))
+			return $this->registered_services[$shorthandle];
 		else
 			echo "registered service is not avl";
 	}
 
+	public function build_query_string($service){
+		$uri = $service->getUri();
+		$query_string = 
+
+	}
+
+//extend service by required
 
 
 	
