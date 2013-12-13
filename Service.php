@@ -7,7 +7,7 @@ abstract class Service{
 
 	abstract public function create_service_uri();
 
-	abstract public function bind_param();
+	abstract public function bind_param($id);
 
 }
 ?>
