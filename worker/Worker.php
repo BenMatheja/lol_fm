@@ -26,6 +26,7 @@ class Worker
     private $request;
     private $jobs;
     private $uid;
+    private $worker;
 
     public function __construct($name)
     {
@@ -46,35 +47,49 @@ class Worker
         $new_worker->worker_id = $uid;
         $new_worker->requests_refreshed = date('Y-m-d H:i:s');
         $new_worker->save();
+        $this->worker = $new_worker;
     }
 
     private function run()
     {
         //change to while after finishing work
-        if ($this->getRunState()) {
-            $this->loadJob();
-            if ($this->job) {
-                //if requests left
-                //perform request
-                /*$service = $this->api_endpoint->getServiceByShorthand($service_name);
-                $service->bind_param($this->job->param);*/
-                $service_name = $this->job->serviceForJob();
-                $strategy = $this->job->strategy;
-                $response = $this->request->performRequest($this->request->buildRequest($service_name, $this->job->param));
-                if ($this->rp->$strategy($response, $this->job->summoner_id)) {
-                    $this->job->fulfilled = 1;
-                    $this->job->fulfilled_at = date('Y-m-d H:i:s');
-                    $this->job->save();
-                }
+        while ($this->getRunState()) {
+           if ($this->requestsLeft() > 0) {
+                $this->loadJob();
+                if ($this->job) {
+                    $service_name = $this->job->serviceForJob();
+                    $strategy = $this->job->strategy;
+                    $response = $this->request->performRequest($this->request->buildRequest($service_name, $this->job->param));
+                    if ($this->rp->$strategy($response, $this->job->summoner_id)) {
 
+                        $this->job->fulfilled = 1;
+                        $this->job->fulfilled_at = date('Y-m-d H:i:s');
+                        $this->request_counter++;
+                        $this->job->save();
+
+                        $this->worker->requests_executed = $this->request_counter;
+                        $this->worker->last_request = date('Y-m-d H:i:s');
+                        $this->worker->requests_left = $this->requestsLeft() -1;
+                        $this->worker->save();
+                    }
+                }
             }
         }
     }
 
     private function getRunState()
     {
-        $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one();
-        return $runstate;
+        $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one()->run;
+        if($runstate == 1) return true;
+            else return false;
+
+    }
+
+
+    private function requestsLeft()
+    {
+        $requests_left = ORM::for_table('worker')->where('worker_id', $this->uid)->find_one()->requests_left;
+        return $requests_left;
     }
 
     private function loadJob()
@@ -83,19 +98,9 @@ class Worker
         $this->job = $job;
     }
 
-    private function executeJob($job)
-    {
-        if ($job->service == '1') {
-            //get metadata out of job
-            //trigger processor with the right action
-            //persist it into the right database
-
-        }
-    }
-
 }
 
-$w = new Worker('hell');
+$w = new Worker('machine spawned');
 // $data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
 /*
 array (size=2)

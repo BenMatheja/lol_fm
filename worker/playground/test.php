@@ -27,8 +27,10 @@ foreach( $test as $element) {
 
 var_dump($services);*/
 
-$epoch = 1389501405872;
+$epoch = 1388791743935;
+
 
 $seconds = $epoch / 1000;
-echo gmdate("Y-m-d h:i:s", $seconds);
+echo date("Y-m-d H:i:s", $seconds);
+
 

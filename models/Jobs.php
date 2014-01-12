@@ -18,4 +18,8 @@ class Jobs extends Model
     {
         return $this->services()->find_one()->name;
     }
+
+    public function strategyForJob(){
+        /*return $this->services()->find_one()->strategy;*/
+    }
 }

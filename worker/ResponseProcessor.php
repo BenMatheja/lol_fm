@@ -84,8 +84,7 @@ class ResponseProcessor
     private function transformEpoch($input)
     {
         $seconds = $input / 1000;
-        $seconds = $seconds + 7200;
-        return gmdate("Y-m-d h:i:s", $seconds);
+        return date("Y-m-d H:i:s", $seconds);
     }
 
     public function processChampions($response)
