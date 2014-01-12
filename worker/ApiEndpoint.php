@@ -1,6 +1,4 @@
 <?php
-require_once 'services/RecentGames.php';
-require_once 'services/SummonerIdByName.php';
 require_once 'Config/Config.php';
 
 class ApiEndpoint {
@@ -17,6 +15,10 @@ class ApiEndpoint {
 		$this->api_tail = "?api_key=";
         $this->addAvailableServices();
 	}
+
+    public function __autoload($name){
+        include 'services/'.$name . '.php';
+    }
 	/**
 	* Services are stored in registered services
 	* with a shorthandle
@@ -24,6 +26,7 @@ class ApiEndpoint {
 	*/
 	private function addService($shorthandle){
 		if(!array_key_exists($shorthandle, $this->registered_services)){
+            $this->__autoload($shorthandle);
 			$service = new $shorthandle();
 			$this->registered_services[$shorthandle] = $service;
 			return true;

@@ -1,14 +1,21 @@
 <?php
 require_once 'config/Config.php';
-require_once '../models/Summoner.php';
-require_once '../models/Games.php';
 
 class ResponseProcessor
 {
 
     public function __construct()
     {
+        $this->autoloadModels();
 
+    }
+
+    private function autoloadModels()
+    {
+        $model_array = array_diff( scandir('../models'), array(".", "..",'.gitignore') );
+        foreach ($model_array as $model) {
+                require_once '../models/' . $model;
+        }
     }
 
     /*
@@ -52,22 +59,22 @@ class ResponseProcessor
         $decoded = $this->process($response);
 
         foreach ($decoded['games'] as $game) {
-            $lookup = Model::factory('Games')->where('summoner_id',$id)->where('riot_id', $game['gameId'])->find_one();
-            if(!$lookup){
-            $new_game = Model::factory('Games')->create();
-            $new_game->riot_id = $game['gameId'];
-            $new_game->game_mode = $game['gameMode'];
-            $new_game->sub_type = $game['subType'];
-            $new_game->map_id = $game['mapId'];
-            $new_game->team_id = $game['teamId'];
-            $new_game->champion_id = $game['championId'];
-            $new_game->spell_1 = $game['spell1'];
-            $new_game->spell_2 = $game['spell2'];
-            $new_game->create_date = $this->transformEpoch($game['createDate']);
-            $new_game->fellow_players = json_encode($game['fellowPlayers']);
-            $new_game->statistics = json_encode($game['fellowPlayers']);
-            $new_game->summoner_id = $id;
-            $new_game->save();
+            $lookup = Model::factory('Games')->where('summoner_id', $id)->where('riot_id', $game['gameId'])->find_one();
+            if (!$lookup) {
+                $new_game = Model::factory('Games')->create();
+                $new_game->riot_id = $game['gameId'];
+                $new_game->game_mode = $game['gameMode'];
+                $new_game->sub_type = $game['subType'];
+                $new_game->map_id = $game['mapId'];
+                $new_game->team_id = $game['teamId'];
+                $new_game->champion_id = $game['championId'];
+                $new_game->spell_1 = $game['spell1'];
+                $new_game->spell_2 = $game['spell2'];
+                $new_game->create_date = $this->transformEpoch($game['createDate']);
+                $new_game->fellow_players = json_encode($game['fellowPlayers']);
+                $new_game->statistics = json_encode($game['fellowPlayers']);
+                $new_game->summoner_id = $id;
+                $new_game->save();
             }
         }
 
@@ -77,11 +84,34 @@ class ResponseProcessor
     private function transformEpoch($input)
     {
         $seconds = $input / 1000;
-        $seconds = $seconds +7200;
+        $seconds = $seconds + 7200;
         return gmdate("Y-m-d h:i:s", $seconds);
     }
 
-    private function arrayToString($array){
+    public function processChampions($response)
+    {
+        $old_champ = Model::factory('Champions')->delete_many();
+        $decoded = $this->process($response);
+        foreach ($decoded['champions'] as $champion) {
+            $new_champ = Model::factory('Champions')->create();
+            $new_champ->id = $champion['id'];
+            $new_champ->defense_rank = $champion['defenseRank'];
+            $new_champ->attack_rank = $champion['attackRank'];
+            $new_champ->ranked_play_enabled = $champion['rankedPlayEnabled'];
+            $new_champ->name = $champion['name'];
+            $new_champ->bot_enabled = $champion['botEnabled'];
+            $new_champ->difficulty_rank = $champion['difficultyRank'];
+            $new_champ->active = $champion['active'];
+            $new_champ->free_to_play = $champion['freeToPlay'];
+            $new_champ->magic_rank = $champion['magicRank'];
+            $new_champ->save();
+        }
+        return true;
+
+    }
+
+    private function arrayToString($array)
+    {
 
     }
 

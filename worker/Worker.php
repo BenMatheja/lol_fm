@@ -42,7 +42,7 @@ class Worker
     private function persistWorker($name, $uid)
     {
         $new_worker = ORM::for_table('worker')->create();
-        $new_worker ->name = $name;
+        $new_worker->name = $name;
         $new_worker->worker_id = $uid;
         $new_worker->requests_refreshed = date('Y-m-d H:i:s');
         $new_worker->save();
@@ -53,40 +53,44 @@ class Worker
         //change to while after finishing work
         if ($this->getRunState()) {
             $this->loadJob();
-            //if requests left
-            //perform request
-            /*$service = $this->api_endpoint->getServiceByShorthand($service_name);
-            $service->bind_param($this->job->param);*/
-            $service_name = $this->job->serviceForJob();
-            $strategy = $this->job->strategy;
-            $response = $this->request->performRequest($this->request->buildRequest($service_name,$this->job->param));
-            if($this->rp->$strategy($response,$this->job->summoner_id)){
-                $this->job->fulfilled = 1;
-                $this->job->fulfilled_at = date('Y-m-d H:i:s');
-                $this->job->save();
+            if ($this->job) {
+                //if requests left
+                //perform request
+                /*$service = $this->api_endpoint->getServiceByShorthand($service_name);
+                $service->bind_param($this->job->param);*/
+                $service_name = $this->job->serviceForJob();
+                $strategy = $this->job->strategy;
+                $response = $this->request->performRequest($this->request->buildRequest($service_name, $this->job->param));
+                if ($this->rp->$strategy($response, $this->job->summoner_id)) {
+                    $this->job->fulfilled = 1;
+                    $this->job->fulfilled_at = date('Y-m-d H:i:s');
+                    $this->job->save();
+                }
+
             }
-
-        }
-    }
-
-    private function executeJob($job){
-        if($job->service == '1'){
-           //get metadata out of job
-           //trigger processor with the right action
-           //persist it into the right database
-
         }
     }
 
     private function getRunState()
     {
-      $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one();
-      return $runstate;
+        $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one();
+        return $runstate;
     }
 
-    private function loadJob(){
-       $job = Model::factory('Jobs')->order_by_asc('inserted')->limit(1)->where('fulfilled',0)->find_one();
-       $this->job = $job;
+    private function loadJob()
+    {
+        $job = Model::factory('Jobs')->order_by_asc('inserted')->limit(1)->where('fulfilled', 0)->find_one();
+        $this->job = $job;
+    }
+
+    private function executeJob($job)
+    {
+        if ($job->service == '1') {
+            //get metadata out of job
+            //trigger processor with the right action
+            //persist it into the right database
+
+        }
     }
 
 }
