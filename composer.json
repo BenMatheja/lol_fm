@@ -2,7 +2,13 @@
     "name": "suchtundordnung/lol_fm",
     "description": "LoL FM social game monitoring",
     "require": {
-        "apache/log4php": "2"
+        "apache/log4php": "2",
+        "php": ">=5.3",
+        "slim/slim": "dev-master",
+        "slim/views": "dev-master",
+        "twig/twig": "dev-master",
+        "j4mie/idiorm": "1.4.1",
+        "j4mie/paris": "dev-master"
     },
     "license": "gpl",
     "authors": [
