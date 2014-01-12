@@ -32,6 +32,11 @@ class ResponseProcessor{
         $summoner->profile_icon_id = $decoded['profileIconId'];
         $summoner->riot_id = $decoded['id'];
         $summoner->save();
+        return true;
+    }
+
+    public function processGamesForSummonerCall($response,$id){
+
     }
 }
 

@@ -19,6 +19,6 @@ class Summoner extends Model
 
     public function games()
     {
-        $this->has_many('Games');
+        return $this->has_many('Games');
     }
 }

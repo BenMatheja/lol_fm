@@ -10,12 +10,13 @@ require_once 'Config/Database.php';
 require_once 'ApiEndpoint.php';
 require_once 'ResponseProcessor.php';
 require_once 'Request.php';
+require_once '../models/Jobs.php';
 
 
 /**
  * Init the Worker
  */
-class Worker extends Model
+class Worker
 {
     private $request_counter = 0;
     private $name;
@@ -51,9 +52,18 @@ class Worker extends Model
     {
         //change to while after finishing work
         if ($this->getRunState()) {
-            $this->loadJobs();
-            var_dump($this->jobs);
-
+            $this->loadJob();
+            //if requests left
+            //perform request
+            /*$service = $this->api_endpoint->getServiceByShorthand($service_name);
+            $service->bind_param($this->job->param);*/
+            $service_name = $this->job->serviceForJob();
+            $strategy = $this->job->strategy;
+            $response = $this->request->performRequest($this->request->buildRequest($service_name,$this->job->param));
+            if($this->rp->$strategy($response,$this->job->summoner_id)){
+                $this->job->fulfilled = 1;
+                $this->job->save();
+            }
 
         }
     }
@@ -69,14 +79,13 @@ class Worker extends Model
 
     private function getRunState()
     {
-      $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one()->run;
+      $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one();
       return $runstate;
     }
 
-    private function loadJobs()
-    {
-        $jobs = ORM::for_table('jobs')->where('fulfilled',0)->find_array();
-         $this->jobs = $jobs;
+    private function loadJob(){
+       $job = Model::factory('Jobs')->order_by_asc('inserted')->limit(1)->where('fulfilled',0)->find_one();
+       $this->job = $job;
     }
 
 }
