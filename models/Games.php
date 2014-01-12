@@ -8,6 +8,7 @@
 class Games extends Model{
     /*
      public $id;
+     public $summoner_id;
      public $riot_id;
      public $game_mode;
      public $sub_type;

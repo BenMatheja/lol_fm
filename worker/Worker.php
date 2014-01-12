@@ -62,6 +62,7 @@ class Worker
             $response = $this->request->performRequest($this->request->buildRequest($service_name,$this->job->param));
             if($this->rp->$strategy($response,$this->job->summoner_id)){
                 $this->job->fulfilled = 1;
+                $this->job->fulfilled_at = date('Y-m-d H:i:s');
                 $this->job->save();
             }
 

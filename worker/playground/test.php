@@ -18,11 +18,17 @@ echo rawurlencode('ben trades');
 
 echo date('Y-m-d H:i:s');*/
 
-$test =  scandir('../services');
+/*$test =  scandir('../services');
 $test = array_diff($test, array('.','..'));
 foreach( $test as $element) {
   $tmp = explode('.',$element);
   $services[] = $tmp[0];
 }
 
-var_dump($services);
+var_dump($services);*/
+
+$epoch = 1389501405872;
+
+$seconds = $epoch / 1000;
+echo gmdate("Y-m-d h:i:s", $seconds);
+

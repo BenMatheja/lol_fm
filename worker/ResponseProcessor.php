@@ -1,30 +1,27 @@
 <?php
 require_once 'config/Config.php';
 require_once '../models/Summoner.php';
-class ResponseProcessor{
-	
-	public function __construct(){
+require_once '../models/Games.php';
 
-	}
+class ResponseProcessor
+{
+
+    public function __construct()
+    {
+
+    }
+
     /*
      * decode the json response to associative array
      */
-	public function process($response){
-	$decoded = json_decode($response,TRUE);
-	return $decoded;
-	}
 
-    public function persistResponse(){
+    public function persistResponse()
+    {
 
     }
-/*array (size=6)
-'id' => int 19646272
-'name' => string 'DwayneHart' (length=10)
-'profileIconId' => int 563
-'summonerLevel' => int 30
-'revisionDate' => float 1389476015000
-'revisionDateStr' => string '01/11/2014 09:33 PM UTC' (length=23)*/
-    public function processSummonerIdCall($response, $id){
+
+    public function processSummonerIdCall($response, $id)
+    {
         $decoded = $this->process($response);
         $summoner = Model::factory('Summoner')->where('id', $id)->find_one();
         $summoner->name = $decoded['name'];
@@ -35,12 +32,60 @@ class ResponseProcessor{
         return true;
     }
 
-    public function processGamesForSummonerCall($response,$id){
+    /*array (size=6)
+    'id' => int 19646272
+    'name' => string 'DwayneHart' (length=10)
+    'profileIconId' => int 563
+    'summonerLevel' => int 30
+    'revisionDate' => float 1389476015000
+    'revisionDateStr' => string '01/11/2014 09:33 PM UTC' (length=23)*/
+
+    public function process($response)
+    {
+        $decoded = json_decode($response, TRUE);
+        return $decoded;
+    }
+
+    public function processGamesForSummonerCall($response, $id)
+    {
+        echo $id;
+        $decoded = $this->process($response);
+
+        foreach ($decoded['games'] as $game) {
+            $lookup = Model::factory('Games')->where('summoner_id',$id)->where('riot_id', $game['gameId'])->find_one();
+            if(!$lookup){
+            $new_game = Model::factory('Games')->create();
+            $new_game->riot_id = $game['gameId'];
+            $new_game->game_mode = $game['gameMode'];
+            $new_game->sub_type = $game['subType'];
+            $new_game->map_id = $game['mapId'];
+            $new_game->team_id = $game['teamId'];
+            $new_game->champion_id = $game['championId'];
+            $new_game->spell_1 = $game['spell1'];
+            $new_game->spell_2 = $game['spell2'];
+            $new_game->create_date = $this->transformEpoch($game['createDate']);
+            $new_game->fellow_players = json_encode($game['fellowPlayers']);
+            $new_game->statistics = json_encode($game['fellowPlayers']);
+            $new_game->summoner_id = $id;
+            $new_game->save();
+            }
+        }
+
+        return true;
+    }
+
+    private function transformEpoch($input)
+    {
+        $seconds = $input / 1000;
+        $seconds = $seconds +7200;
+        return gmdate("Y-m-d h:i:s", $seconds);
+    }
+
+    private function arrayToString($array){
 
     }
+
 }
-
-
 /*
  * here are a few ways you can grab a copy of the summoner icons:
 
