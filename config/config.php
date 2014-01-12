@@ -20,7 +20,7 @@ return array(
 // MySQL
     'db1.dsn'             => 'mysql:host=suchtundordnung.de;dbname=lol_fm',
     'db1.username'        => 'db_lol_remote',
-    'db1.password'        => 'db_suo_lolfm',
+    'db1.password'        => 'db_suo_lol',
 
 // Application paths
     'path.routes'         => $basedir . 'routes/',

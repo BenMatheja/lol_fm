@@ -15,7 +15,7 @@ require_once 'Request.php';
 /**
  * Init the Worker
  */
-class Worker
+class Worker extends Model
 {
     private $request_counter = 0;
     private $name;
@@ -40,61 +40,64 @@ class Worker
 
     private function persistWorker($name, $uid)
     {
-        $current_timestamp = date('Y-m-d H:i:s');
-        $qry = 'INSERT INTO worker(name,requests_refreshed, worker_id) VALUES("' . $name . '","' . $current_timestamp . '","' . $uid . '")';
-        mysqli_query($this->link, $qry);
+        $new_worker = ORM::for_table('worker')->create();
+        $new_worker ->name = $name;
+        $new_worker->worker_id = $uid;
+        $new_worker->requests_refreshed = date('Y-m-d H:i:s');
+        $new_worker->save();
     }
 
     private function run()
     {
-        while ($this->getRunState()) {
+        //change to while after finishing work
+        if ($this->getRunState()) {
             $this->loadJobs();
             var_dump($this->jobs);
+
 
         }
     }
 
+    private function executeJob($job){
+        if($job->service == '1'){
+           //get metadata out of job
+           //trigger processor with the right action
+           //persist it into the right database
 
-    /*
-    array (size=2)
-    0 =>
-    array (size=6)
-    'id' => string '1' (length=1)
-    'service' => string '1' (length=1)
-    'param' => string 'DwayneHart' (length=10)
-    'summoner_id' => string '2' (length=1)
-    'inserted' => string '2014-01-12 17:09:41' (length=19)
-    'fulfilled' => string '0' (length=1)
-    1 =>
-    array (size=6)
-    'id' => string '2' (length=1)
-    'service' => string '2' (length=1)
-    'param' => string '19646272' (length=8)
-    'summoner_id' => string '1' (length=1)
-    'inserted' => string '2014-01-12 17:55:01' (length=19)
-    'fulfilled' => string '0' (length=1)*/
+        }
+    }
 
     private function getRunState()
     {
-        $qry = 'SELECT run FROM worker where worker_id="' . $this->uid . '"';
-        $result = mysqli_fetch_assoc(mysqli_query($this->link, $qry));
-        if ($result['run'] == 1) {
-            return true;
-        } else
-            return false;
+      $runstate = ORM::for_table('worker')->select('run')->where('worker_id', $this->uid)->find_one()->run;
+      return $runstate;
     }
 
     private function loadJobs()
     {
-        $qry = 'SELECT * FROM jobs where fulfilled = 0';
-        $result = mysqli_query($this->link, $qry);
-        while ($row = mysqli_fetch_assoc($result)) {
-            $jobs[] = $row;
-        }
-        $this->jobs = $jobs;
+        $jobs = ORM::for_table('jobs')->where('fulfilled',0)->find_array();
+         $this->jobs = $jobs;
     }
 
 }
 
 $w = new Worker('hell');
 // $data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
+/*
+array (size=2)
+0 =>
+array (size=6)
+'id' => string '1' (length=1)
+'service' => string '1' (length=1)
+'param' => string 'DwayneHart' (length=10)
+'summoner_id' => string '2' (length=1)
+'inserted' => string '2014-01-12 17:09:41' (length=19)
+'fulfilled' => string '0' (length=1)
+1 =>
+array (size=6)
+'id' => string '2' (length=1)
+'service' => string '2' (length=1)
+'param' => string '19646272' (length=8)
+'summoner_id' => string '1' (length=1)
+'inserted' => string '2014-01-12 17:55:01' (length=19)
+'fulfilled' => string '0' (length=1)*/

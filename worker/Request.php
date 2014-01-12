@@ -42,12 +42,11 @@ $rp = new ResponseProcessor();
 $apiE->add_service('RecentGames');
 $data = $rp->process($request->performRequest($request->buildRequest('RecentGames',23107213)));
 var_dump ($data['games'][0]);*/
-/*
-$apiE = new ApiEndpoint();
+
+/*$apiE = new ApiEndpoint();
 $request = new Request($apiE);
 $rp = new ResponseProcessor();
-$data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
-var_dump($data);
-*/?>
+$rp->processSummonerIdCall($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')),'2');*/
+?>
 
 

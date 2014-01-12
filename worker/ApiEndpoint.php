@@ -1,6 +1,7 @@
 <?php
 require_once 'services/RecentGames.php';
 require_once 'services/SummonerIdByName.php';
+require_once 'Config/Config.php';
 
 class ApiEndpoint {
 	private $api_key;
