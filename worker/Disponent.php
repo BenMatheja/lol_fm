@@ -13,7 +13,6 @@ class Disponent{
 
     public function __construct(){
     $this->autoloadModels();
-    $this->CreateJobsForSummonerProfiles();
     $this->run();
     }
 
@@ -45,14 +44,13 @@ class Disponent{
                 $new_job->save();
         }
     }
-    private function replenishRequests(){
-        ORM::for_table('worker')->raw_execute('update worker set requests_left = 10');
-    }
+
 
     public function run(){
         while(true){
-            sleep(10);
-            $this->replenishRequests();
+            $this->CreateJobsForSummonerProfiles();
+        sleep(300);
+
        }
     }
 }
