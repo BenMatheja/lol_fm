@@ -1,7 +1,6 @@
 <?php
-require 'Service.php';
 require 'services/RecentGames.php';
-require 'config/config.php';
+require 'services/SummonerIdByName.php';
 
 class ApiEndpoint {
 	private $api_key;
@@ -15,14 +14,14 @@ class ApiEndpoint {
 		$this->api_key =  "35da3603-59cc-4b24-8b87-8accc987c528";
 		$this->api_head = "http://prod.api.pvp.net/api/lol/euw";
 		$this->api_tail = "?api_key=";
-		//$this->log = Logger::getLogger(__CLASS__);
+        $this->add_available_services();
 	}
 	/**
 	* Services are stored in registered services
 	* with a shorthandle
 	* $registered_services['sum_last_game'] e.g.
 	*/
-	public function add_service($shorthandle){
+	private function add_service($shorthandle){
 		if(!array_key_exists($shorthandle, $this->registered_services)){
 			$service = new $shorthandle();
 			$this->registered_services[$shorthandle] = $service;
@@ -31,6 +30,18 @@ class ApiEndpoint {
 		else return false;
 	}
 
+    /**
+     * autoloader for services directory
+     * adds available services at runtime
+     */
+    private function add_available_services(){
+        $dir =  scandir('services');
+        $service_array = array_diff($dir, array('.','..'));
+        foreach( $service_array as $service) {
+            $tmp = explode('.',$service);
+            $this->add_service($tmp[0]);
+        }
+    }
 	public function get_service_by_shorthand($shorthandle){
 		if(array_key_exists($shorthandle, $this->registered_services))
 			return $this->registered_services[$shorthandle];
@@ -47,7 +58,8 @@ class ApiEndpoint {
 
 //extend service by required
 
-
+/*$apiE->add_service('SummonerIdByName');
+$apiE->add_service('RecentGames');*/
 	
 }
 ?>

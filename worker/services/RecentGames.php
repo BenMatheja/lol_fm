@@ -1,5 +1,4 @@
 <?php
-//require '../Service.php';
 /**
 * provides the pluggable recentgames_service
 *
