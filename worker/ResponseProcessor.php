@@ -11,5 +11,9 @@ class ResponseProcessor{
 	$decoded = json_decode($response,TRUE);
 	return $decoded;
 	}
+
+    public function persistResponse(){
+
+    }
 }
 

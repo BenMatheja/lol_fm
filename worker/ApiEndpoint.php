@@ -1,6 +1,6 @@
 <?php
-require 'services/RecentGames.php';
-require 'services/SummonerIdByName.php';
+require_once 'services/RecentGames.php';
+require_once 'services/SummonerIdByName.php';
 
 class ApiEndpoint {
 	private $api_key;
@@ -14,14 +14,14 @@ class ApiEndpoint {
 		$this->api_key =  "35da3603-59cc-4b24-8b87-8accc987c528";
 		$this->api_head = "http://prod.api.pvp.net/api/lol/euw";
 		$this->api_tail = "?api_key=";
-        $this->add_available_services();
+        $this->addAvailableServices();
 	}
 	/**
 	* Services are stored in registered services
 	* with a shorthandle
 	* $registered_services['sum_last_game'] e.g.
 	*/
-	private function add_service($shorthandle){
+	private function addService($shorthandle){
 		if(!array_key_exists($shorthandle, $this->registered_services)){
 			$service = new $shorthandle();
 			$this->registered_services[$shorthandle] = $service;
@@ -30,25 +30,26 @@ class ApiEndpoint {
 		else return false;
 	}
 
+
     /**
      * autoloader for services directory
      * adds available services at runtime
      */
-    private function add_available_services(){
+    private function addAvailableServices(){
         $dir =  scandir('services');
         $service_array = array_diff($dir, array('.','..'));
         foreach( $service_array as $service) {
             $tmp = explode('.',$service);
-            $this->add_service($tmp[0]);
+            $this->addService($tmp[0]);
         }
     }
-	public function get_service_by_shorthand($shorthandle){
+	public function getServiceByShorthand($shorthandle){
 		if(array_key_exists($shorthandle, $this->registered_services))
 			return $this->registered_services[$shorthandle];
 			//$this->log->warn("registered service is not avl");
 	}
 
-	public function build_query_string($service){
+	public function buildQueryString($service){
 		if($uri = $service->create_service_uri()){
 			//$this->log->info($this->api_head.$uri.$this->api_tail.$this->api_key);
 			return $this->api_head.$uri.$this->api_tail.$this->api_key;
@@ -63,3 +64,4 @@ $apiE->add_service('RecentGames');*/
 	
 }
 ?>
+

@@ -1,6 +1,6 @@
 <?php
-require 'ApiEndpoint.php';
-require 'ResponseProcessor.php';
+require_once 'ApiEndpoint.php';
+require_once 'ResponseProcessor.php';
 class Request{
 	private $apiE;
 
@@ -9,9 +9,9 @@ class Request{
 	}
 
 	public function buildRequest($shorthand, $param){
-		$service = $this->apiE->get_service_by_shorthand($shorthand);
+		$service = $this->apiE->getServiceByShorthand($shorthand);
 		$service->bind_param($param);
-		$querystring = $this->apiE->build_query_string($service);
+		$querystring = $this->apiE->buildQueryString($service);
 		return $querystring;
 	}
 
@@ -42,12 +42,12 @@ $rp = new ResponseProcessor();
 $apiE->add_service('RecentGames');
 $data = $rp->process($request->performRequest($request->buildRequest('RecentGames',23107213)));
 var_dump ($data['games'][0]);*/
-
+/*
 $apiE = new ApiEndpoint();
 $request = new Request($apiE);
 $rp = new ResponseProcessor();
 $data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
 var_dump($data);
-?>
+*/?>
 
 

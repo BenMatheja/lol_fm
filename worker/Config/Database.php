@@ -36,7 +36,8 @@ class Database
     {
         self::$dbLink = null;
     }
-}
+
+ }
 
 
 ?>

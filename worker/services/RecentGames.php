@@ -8,6 +8,7 @@ class RecentGames{
 	private $id_set;
 	private $uri_head;
 	private $uri_tail;
+
 	public function __construct(){
 		$this->uri_head = "/v1.1/game/by-summoner/";
 		$this->uri_tail = "/recent";
