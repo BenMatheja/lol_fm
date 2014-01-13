@@ -1,5 +1,5 @@
 <?php
-require_once 'config/Config.php';
+require_once 'Config/Config.php';
 
 class ResponseProcessor
 {
@@ -72,7 +72,7 @@ class ResponseProcessor
                 $new_game->spell_2 = $game['spell2'];
                 $new_game->create_date = $this->transformEpoch($game['createDate']);
                 $new_game->fellow_players = json_encode($game['fellowPlayers']);
-                $new_game->statistics = json_encode($game['fellowPlayers']);
+                $new_game->statistics = json_encode($game['statistics']);
                 $new_game->summoner_id = $id;
                 $new_game->save();
             }

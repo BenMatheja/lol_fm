@@ -53,7 +53,7 @@ class Worker
     private function run()
     {
         //change to while after finishing work
-        while ($this->getRunState()) {
+        while (true) {
            if ($this->requestsLeft() > 0) {
                 $this->loadJob();
                 if ($this->job) {
