@@ -61,7 +61,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20304568" vertical-offset="0" max-vertical-offset="591">
+            <state line="19" column="25" selection-start="241" selection-end="241" vertical-scroll-proportion="0.49307957" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -327,7 +327,11 @@
       <created>1389608364495</created>
       <updated>1389608364495</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new rates">
+      <created>1389608404781</created>
+      <updated>1389608404781</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -378,7 +382,8 @@
     <MESSAGE value="components added, first deploy&#10;" />
     <MESSAGE value="bla&#10;" />
     <MESSAGE value="Added new Domain Models&#10;Tables still to be inserted&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new Domain Models&#10;Tables still to be inserted&#10;" />
+    <MESSAGE value="new rates" />
+    <option name="LAST_COMMIT_MESSAGE" value="new rates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -483,7 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20304568" vertical-offset="0" max-vertical-offset="591">
+        <state line="19" column="25" selection-start="241" selection-end="241" vertical-scroll-proportion="0.49307957" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
