@@ -21,4 +21,9 @@ class Summoner extends Model
     {
         return $this->has_many('Games');
     }
+
+   public function statistics(){
+       return $this->has_one('SummonerStatistics');
+
+   }
 }

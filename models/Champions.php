@@ -7,4 +7,7 @@
  */
 class Champions extends Model{
 
+    public function Games(){
+        return $this->has_many('Games');
+    }
 }

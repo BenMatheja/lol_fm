@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/j4mie/paris" afterPath="$PROJECT_DIR$/vendor/j4mie/paris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/GameStatistics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/SummonerStatistics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Champions.php" afterPath="$PROJECT_DIR$/models/Champions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Games.php" afterPath="$PROJECT_DIR$/models/Games.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Jobs.php" afterPath="$PROJECT_DIR$/models/Jobs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Summoner.php" afterPath="$PROJECT_DIR$/models/Summoner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -32,28 +37,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="services.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/services.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="690">
+            <state line="134" column="0" selection-start="4686" selection-end="4686" vertical-scroll-proportion="33.375" vertical-offset="2811" max-vertical-offset="3390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
+      <file leaf-file-name="GameStatistics.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/GameStatistics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="210" selection-end="210" vertical-scroll-proportion="0.20844327" vertical-offset="41" max-vertical-offset="480">
+            <state line="9" column="42" selection-start="193" selection-end="193" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nohup.out" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worker/nohup.out">
+      <file leaf-file-name="Games.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/Games.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2857143" vertical-offset="18" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jobs.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Jobs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Champions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Champions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="40" selection-start="185" selection-end="185" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Summoner.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Summoner.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="51" selection-start="411" selection-end="411" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummonerStatistics.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/SummonerStatistics.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -83,15 +124,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/models/Worker.php" />
-        <option value="$PROJECT_DIR$/models/Summoner.php" />
-        <option value="$PROJECT_DIR$/models/Services.php" />
-        <option value="$PROJECT_DIR$/models/Games.php" />
-        <option value="$PROJECT_DIR$/worker/services/UpdateChampions.php" />
-        <option value="$PROJECT_DIR$/models/Champions.php" />
         <option value="$PROJECT_DIR$/worker/ApiEndpoint.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
-        <option value="$PROJECT_DIR$/models/Jobs.php" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/playground/test.php" />
         <option value="$PROJECT_DIR$/worker/Disponent.php" />
@@ -99,13 +133,20 @@
         <option value="$PROJECT_DIR$/vendor/j4mie/paris/.gitattributes" />
         <option value="$PROJECT_DIR$/vendor/j4mie/paris/paris.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/models/GameStatistics.php" />
+        <option value="$PROJECT_DIR$/models/Summoner.php" />
+        <option value="$PROJECT_DIR$/models/SummonerStatistics.php" />
+        <option value="$PROJECT_DIR$/models/Jobs.php" />
+        <option value="$PROJECT_DIR$/models/Games.php" />
+        <option value="$PROJECT_DIR$/models/Champions.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="48" />
-    <option name="y" value="764" />
+    <option name="y" value="-4" />
     <option name="width" value="1319" />
     <option name="height" value="773" />
   </component>
@@ -163,35 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,8 +215,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="true" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="true" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -311,7 +324,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="764" width="1319" height="773" extended-state="6" />
+    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -319,10 +332,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17463933" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17463933" sideWeight="0.99226004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -363,50 +376,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/worker/services/UpdateChampions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="363" selection-end="363" vertical-scroll-proportion="0.31512195" vertical-offset="0" max-vertical-offset="1025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Champions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.13268292" vertical-offset="0" max-vertical-offset="1025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/services/RecentGames.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="0" selection-end="578" vertical-scroll-proportion="0.31512195" vertical-offset="0" max-vertical-offset="1025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="603" selection-end="603" vertical-scroll-proportion="0.36487806" vertical-offset="0" max-vertical-offset="1025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Worker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="383" selection-end="383" vertical-scroll-proportion="15.692307" vertical-offset="765" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/ApiEndpoint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="982" selection-end="982" vertical-scroll-proportion="-13.076923" vertical-offset="204" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="39" selection-start="182" selection-end="182" vertical-scroll-proportion="0.20070839" vertical-offset="0" max-vertical-offset="847" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="378" selection-end="429" vertical-scroll-proportion="0.44155845" vertical-offset="0" max-vertical-offset="847" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/playground/test.php">
@@ -436,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/nohup.out">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
@@ -452,7 +417,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="210" selection-end="210" vertical-scroll-proportion="0.20844327" vertical-offset="41" max-vertical-offset="480">
+        <state line="10" column="23" selection-start="210" selection-end="210" vertical-scroll-proportion="0.2027027" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="222" selection-end="222" vertical-scroll-proportion="0.1891892" vertical-offset="8" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="0" selection-start="4686" selection-end="4686" vertical-scroll-proportion="33.375" vertical-offset="2811" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Summoner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="51" selection-start="411" selection-end="411" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/SummonerStatistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Champions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="185" selection-end="185" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/GameStatistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="193" selection-end="193" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2857143" vertical-offset="18" max-vertical-offset="585">
           <folding />
         </state>
       </provider>

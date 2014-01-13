@@ -23,4 +23,12 @@ class Games extends Model{
     public function summoner(){
         return $this->belongs_to('Summoner');
     }
+
+    public function statistics(){
+        return $this->has_one('GameStatistics');
+    }
+
+    public function champions(){
+        return $this->has_many('Champions');
+    }
  }

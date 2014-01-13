@@ -20,6 +20,6 @@ class Jobs extends Model
     }
 
     public function strategyForJob(){
-        /*return $this->services()->find_one()->strategy;*/
+        return $this->services()->find_one()->strategy;
     }
 }
