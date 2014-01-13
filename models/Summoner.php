@@ -26,4 +26,8 @@ class Summoner extends Model
        return $this->has_one('SummonerStatistics');
 
    }
+
+    public function user(){
+        return $this->belongs_to('User');
+    }
 }
