@@ -2,9 +2,11 @@
 35da3603-59cc-4b24-8b87-8accc987c528
 API-KEY
 
-50 req every 10 min
-5 req every 10 sec 
+500 req every 10 min
+50 req every 10 sec
 
+
+===============================
 RULES ARE MADE TO BE BROKEN 
 
 

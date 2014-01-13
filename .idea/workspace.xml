@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/GameStatistics.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/SummonerStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Champions.php" afterPath="$PROJECT_DIR$/models/Champions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Games.php" afterPath="$PROJECT_DIR$/models/Games.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Jobs.php" afterPath="$PROJECT_DIR$/models/Jobs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Summoner.php" afterPath="$PROJECT_DIR$/models/Summoner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -55,10 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Games.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Games.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Games.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2857143" vertical-offset="18" max-vertical-offset="585">
+            <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="-6.75" vertical-offset="18" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20304568" vertical-offset="0" max-vertical-offset="591">
               <folding />
             </state>
           </provider>
@@ -124,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/worker/ApiEndpoint.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/playground/test.php" />
@@ -140,6 +142,7 @@
         <option value="$PROJECT_DIR$/models/Jobs.php" />
         <option value="$PROJECT_DIR$/models/Games.php" />
         <option value="$PROJECT_DIR$/models/Champions.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -320,19 +323,24 @@
       <created>1389568896459</created>
       <updated>1389568896459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added new Domain Models&#10;Tables still to be inserted&#10;">
+      <created>1389608364495</created>
+      <updated>1389608364495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17463933" sideWeight="0.99226004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17463933" sideWeight="0.99226004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -342,7 +350,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -370,17 +377,13 @@
     <MESSAGE value="time issues fixed, disponent running" />
     <MESSAGE value="components added, first deploy&#10;" />
     <MESSAGE value="bla&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="bla&#10;" />
+    <MESSAGE value="Added new Domain Models&#10;Tables still to be inserted&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Domain Models&#10;Tables still to be inserted&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/Services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="182" selection-end="182" vertical-scroll-proportion="0.20070839" vertical-offset="0" max-vertical-offset="847" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/playground/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="24096" selection-end="24096" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="714" />
@@ -473,7 +476,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Games.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2857143" vertical-offset="18" max-vertical-offset="585">
+        <state line="12" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="-6.75" vertical-offset="18" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20304568" vertical-offset="0" max-vertical-offset="591">
           <folding />
         </state>
       </provider>
