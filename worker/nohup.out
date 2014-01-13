@@ -1,0 +1,7 @@
+
+PHP Warning:  require_once(config/Config.php): failed to open stream: No such file or directory in /home/ben/Web/lol_fm/worker/ResponseProcessor.php on line 2
+
+Warning: require_once(config/Config.php): failed to open stream: No such file or directory in /home/ben/Web/lol_fm/worker/ResponseProcessor.php on line 2
+PHP Fatal error:  require_once(): Failed opening required 'config/Config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ben/Web/lol_fm/worker/ResponseProcessor.php on line 2
+
+Fatal error: require_once(): Failed opening required 'config/Config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ben/Web/lol_fm/worker/ResponseProcessor.php on line 2
