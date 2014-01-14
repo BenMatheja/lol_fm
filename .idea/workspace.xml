@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\worker\Config\Database.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\models\Services.php" afterPath="$PROJECT_DIR$/models/Service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/j4mie/paris" afterPath="$PROJECT_DIR$/vendor/j4mie/paris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Config/Config.php" afterPath="$PROJECT_DIR$/worker/Config/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchPlayers.php" afterPath="$PROJECT_DIR$/worker/CrunchPlayers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ResponseProcessor.php" afterPath="$PROJECT_DIR$/worker/ResponseProcessor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Worker.php" afterPath="$PROJECT_DIR$/worker/Worker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -40,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CrunchStatistics.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CrunchStatistics.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="21" selection-start="1637" selection-end="1637" vertical-scroll-proportion="6.1923075" vertical-offset="1062" max-vertical-offset="2074">
+            <state line="61" column="51" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.5581683" vertical-offset="501" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -114,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseProcessor.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ResponseProcessor.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.9144654" vertical-offset="718" max-vertical-offset="2533">
+            <state line="72" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-19.461538" vertical-offset="718" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -171,9 +162,9 @@
         <option value="$PROJECT_DIR$/worker/Config/Config.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
-        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
         <option value="$PROJECT_DIR$/worker/Disponent.php" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
+        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
       </list>
     </option>
   </component>
@@ -494,13 +485,18 @@
       <created>1389728410265</created>
       <updated>1389728410265</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="refactoring done&#10;">
+      <created>1389733464805</created>
+      <updated>1389733464805</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -516,7 +512,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -534,7 +529,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="ApiEndpoint changed&#10;Worker added&#10;New service&#10;" />
     <MESSAGE value="Worker added&#10;" />
     <MESSAGE value="Idiorm &amp; paris added to worker .. slick!" />
     <MESSAGE value="First Job is automatically processed !&#10;" />
@@ -559,7 +553,8 @@
     <MESSAGE value="css fixed" />
     <MESSAGE value="last stable before refactoring" />
     <MESSAGE value="refactoring has begun" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring has begun" />
+    <MESSAGE value="refactoring done&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring done&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,20 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-18.346153" vertical-offset="16" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="21" selection-start="1637" selection-end="1637" vertical-scroll-proportion="6.1923075" vertical-offset="1062" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="40" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-14.076923" vertical-offset="416" max-vertical-offset="1275">
@@ -740,7 +721,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.9144654" vertical-offset="718" max-vertical-offset="2533">
+        <state line="72" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-19.461538" vertical-offset="718" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="48" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-18.346153" vertical-offset="16" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="51" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.5581683" vertical-offset="501" max-vertical-offset="2074">
           <folding />
         </state>
       </provider>
