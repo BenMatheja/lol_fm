@@ -52,7 +52,7 @@ class Worker
 
     private function loadJobs()
     {
-        $jobs = Model::factory('Jobs')->order_by_asc('inserted')->where('fulfilled', 0)->limit(20)->find_many();
+        $jobs = Model::factory('Jobs')->order_by_asc('inserted')->where('fulfilled', 0)->limit(15)->find_many();
         $this->jobs = $jobs;
     }
 

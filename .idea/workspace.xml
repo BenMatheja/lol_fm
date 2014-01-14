@@ -54,7 +54,7 @@
           <file leaf-file-name="Worker.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/Worker.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="9" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.5423729" vertical-offset="289" max-vertical-offset="1445">
+                <state line="48" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.5254237" vertical-offset="289" max-vertical-offset="1445">
                   <folding />
                 </state>
               </provider>
@@ -469,7 +469,11 @@
       <created>1389666520345</created>
       <updated>1389666520345</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="limits!!">
+      <created>1389666581231</created>
+      <updated>1389666581231</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,7 +532,8 @@
     <MESSAGE value="both crunchers finalized&#10;" />
     <MESSAGE value="working as fckin intended" />
     <MESSAGE value="limits adapted" />
-    <option name="LAST_COMMIT_MESSAGE" value="limits adapted" />
+    <MESSAGE value="limits!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="limits!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -875,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Worker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.5423729" vertical-offset="289" max-vertical-offset="1445">
+        <state line="48" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.5254237" vertical-offset="289" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
