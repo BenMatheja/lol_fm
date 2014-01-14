@@ -36,21 +36,21 @@ class Disponent
     {
         $summoner = Model::Factory('Summoner')->find_array();
         foreach ($summoner as $sum) {
-            $new_job = Model::Factory('Jobs')->create();
+            $new_job = Model::Factory('Job')->create();
             if ($sum['riot_id'] != null) {
                 //only create jobs for summoners who are users
                 if ($sum['is_user'] == 1) {
                     //create recentgames job
-                    $new_job->services_id = ORM::for_table('services')->where('name', 'RecentGames')->find_one()->id;
-                    $new_job->strategy = ORM::for_table('services')->where('name', 'RecentGames')->find_one()->strategy;
+                    $new_job->services_id = ORM::for_table('service')->where('name', 'RecentGames')->find_one()->id;
+                    $new_job->strategy = ORM::for_table('service')->where('name', 'RecentGames')->find_one()->strategy;
                     $new_job->param = $sum['riot_id'];
                     $new_job->summoner_id = $sum['id'];
                     $new_job->save();
                 }
                 //create summoner update job
-                $new2_job = Model::Factory('Jobs')->create();
-                $new2_job->services_id = ORM::for_table('services')->where('name', 'SummonerNameById')->find_one()->id;
-                $new2_job->strategy = ORM::for_table('services')->where('name', 'SummonerNameById')->find_one()->strategy;
+                $new2_job = Model::Factory('Job')->create();
+                $new2_job->services_id = ORM::for_table('service')->where('name', 'SummonerNameById')->find_one()->id;
+                $new2_job->strategy = ORM::for_table('service')->where('name', 'SummonerNameById')->find_one()->strategy;
                 $new2_job->param = $sum['riot_id'];
                 $new2_job->summoner_id = $sum['id'];
                 $new2_job->save();
@@ -59,8 +59,8 @@ class Disponent
             }
             //Resolve names to summoner ids
             if ($sum['name'] != null && $sum['riot_id'] == null) {
-                $new_job = Model::Factory('Jobs')->create();
-                $service = ORM::for_table('services')->where('name', 'SummonerIdByName')->find_one();
+                $new_job = Model::Factory('Job')->create();
+                $service = ORM::for_table('service')->where('name', 'SummonerIdByName')->find_one();
                 $new_job->services_id = $service->id;
                 $new_job->strategy = $service->strategy;
                 $new_job->param = $sum['name'];

@@ -15,13 +15,13 @@ class CrunchPlayers
 {
     public function __construct()
     {
-        $games = Model::Factory('Games')->where('players_crunched', 0)->limit(1500)->find_many();
+        $games = Model::Factory('Game')->where('players_crunched', 0)->limit(1500)->find_many();
         if ($games) {
             foreach ($games as $game) {
                 $players = $game->fellow_players;
                 $players = json_decode($players, true);
                 foreach ($players as $element) {
-                    $new_game_players = Model::factory('GamePlayers')->create();
+                    $new_game_players = Model::factory('GamePlayer')->create();
                     $new_game_players->riot_summoner_id = $element['summonerId'];
                     $new_game_players->team_id = $element['teamId'];
                     $new_game_players->champions_id = $element['championId'];

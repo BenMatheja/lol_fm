@@ -55,7 +55,7 @@ class CrunchStatistics
 {
     public function __construct()
     {
-        $games = Model::Factory('Games')->where('stats_crunched', 0)->limit(100)->find_many();
+        $games = Model::Factory('Game')->where('stats_crunched', 0)->limit(100)->find_many();
         if ($games) {
             foreach ($games as $game) {
                 $stats = $game->statistics;
@@ -64,7 +64,7 @@ class CrunchStatistics
                     $mapping[$value['name']] = $value['value'];
                 }
                 if ($mapping != null) {
-                    $new_stats = Model::factory('GameStatistics')->create();
+                    $new_stats = Model::factory('GameStatistic')->create();
                     $new_stats->games_id = $game->id;
                     $new_stats->level = $mapping['LEVEL'];
                     $new_stats->gold_earned = $mapping['GOLD_EARNED'];

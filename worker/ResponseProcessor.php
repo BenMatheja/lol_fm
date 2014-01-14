@@ -61,9 +61,9 @@ class ResponseProcessor
         $decoded = $this->process($response);
         if ($decoded != null) {
             foreach ($decoded['games'] as $game) {
-                $lookup = Model::factory('Games')->where('summoner_id', $id)->where('riot_id', $game['gameId'])->find_one();
+                $lookup = Model::factory('Game')->where('summoner_id', $id)->where('riot_id', $game['gameId'])->find_one();
                 if (!$lookup) {
-                    $new_game = Model::factory('Games')->create();
+                    $new_game = Model::factory('Game')->create();
                     $new_game->riot_id = $game['gameId'];
                     $new_game->game_mode = $game['gameMode'];
                     $new_game->sub_type = $game['subType'];
@@ -92,10 +92,10 @@ class ResponseProcessor
 
     public function processChampions($response)
     {
-        $old_champ = Model::factory('Champions')->delete_many();
+        $old_champ = Model::factory('Champion')->delete_many();
         $decoded = $this->process($response);
         foreach ($decoded['champions'] as $champion) {
-            $new_champ = Model::factory('Champions')->create();
+            $new_champ = Model::factory('Champion')->create();
             $new_champ->id = $champion['id'];
             $new_champ->defense_rank = $champion['defenseRank'];
             $new_champ->attack_rank = $champion['attackRank'];

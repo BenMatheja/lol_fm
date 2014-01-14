@@ -1,4 +1,6 @@
+
 <?php
+E_DEPRECATED;
 /**
  * Created by PhpStorm.
  * User: ben
