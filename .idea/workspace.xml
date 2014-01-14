@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/j4mie/paris" afterPath="$PROJECT_DIR$/vendor/j4mie/paris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/test.php" afterPath="$PROJECT_DIR$/worker/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worker/DatabaseCleaner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -32,23 +31,27 @@
     <favorites_list name="lol_fm" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39357907">
+    <splitter split-orientation="horizontal" split-proportion="0.4908877">
       <split-first>
         <leaf>
           <file leaf-file-name="Disponent.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="55" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1207">
-                  <folding />
+                <state line="16" column="5" selection-start="211" selection-end="211" vertical-scroll-proportion="3.7692308" vertical-offset="370" max-vertical-offset="1360">
+                  <folding>
+                    <element signature="e#6#83#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ResponseProcessor.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+          <file leaf-file-name="DatabaseCleaner.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/worker/DatabaseCleaner.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="52" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2533">
-                  <folding />
+                <state line="20" column="1" selection-start="331" selection-end="331" vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="1003">
+                  <folding>
+                    <marker date="1389704470730" expanded="true" signature="282:318" placeholder="DELETE FROM ..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -101,16 +104,16 @@
           <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="850">
+                <state line="19" column="39" selection-start="538" selection-end="538" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="850">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/test.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.24561404" vertical-offset="0" max-vertical-offset="969">
+                <state line="14" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
                   <folding />
                 </state>
               </provider>
@@ -129,10 +132,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="CrunchStatistics.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="CrunchStatistics.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.5683594" vertical-offset="795" max-vertical-offset="2074">
+                <state line="73" column="44" selection-start="2483" selection-end="2483" vertical-scroll-proportion="0.1552918" vertical-offset="999" max-vertical-offset="2074">
                   <folding />
                 </state>
               </provider>
@@ -207,20 +210,21 @@
         <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/services/SummonerNameById.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
-        <option value="$PROJECT_DIR$/worker/Disponent.php" />
-        <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
         <option value="$PROJECT_DIR$/worker/Config/Config.php" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/ApiEndpoint.php" />
         <option value="$PROJECT_DIR$/worker/test.php" />
         <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
+        <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
+        <option value="$PROJECT_DIR$/worker/Disponent.php" />
+        <option value="$PROJECT_DIR$/worker/DatabaseCleaner.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-26" />
+    <option name="y" value="20" />
     <option name="width" value="1936" />
     <option name="height" value="1186" />
   </component>
@@ -279,42 +283,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="worker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lol_fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,19 +481,24 @@
       <created>1389669201129</created>
       <updated>1389669201129</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="cruncherStatistics items fixed&#10;">
+      <created>1389703614735</created>
+      <updated>1389703614735</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-26" y="20" width="1936" height="1186" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1140625" sideWeight="0.998452" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14739583" sideWeight="0.998452" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="9.285051E-4" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -535,7 +508,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -575,22 +547,13 @@
     <MESSAGE value="limits!!" />
     <MESSAGE value="limits!" />
     <MESSAGE value="absolute paths added&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="absolute paths added&#10;" />
+    <MESSAGE value="cruncherStatistics items fixed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="cruncherStatistics items fixed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="5117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/nohup.out">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
@@ -828,20 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="799">
@@ -872,15 +821,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.24561404" vertical-offset="0" max-vertical-offset="969">
+        <state line="14" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="39" selection-start="538" selection-end="538" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="211" selection-end="211" vertical-scroll-proportion="3.7692308" vertical-offset="370" max-vertical-offset="1360">
+          <folding>
+            <element signature="e#6#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.5683594" vertical-offset="795" max-vertical-offset="2074">
+        <state line="73" column="44" selection-start="2483" selection-end="2483" vertical-scroll-proportion="0.1552918" vertical-offset="999" max-vertical-offset="2074">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/DatabaseCleaner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="331" selection-end="331" vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <marker date="1389704470730" expanded="true" signature="282:318" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
