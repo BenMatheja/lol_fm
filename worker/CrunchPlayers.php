@@ -15,7 +15,7 @@ class CrunchPlayers
 {
     public function __construct()
     {
-        $games = Model::Factory('Games')->where('players_crunched', 0)->limit(10)->find_many();
+        $games = Model::Factory('Games')->where('players_crunched', 0)->limit(1500)->find_many();
         if ($games) {
             foreach ($games as $game) {
                 $players = $game->fellow_players;

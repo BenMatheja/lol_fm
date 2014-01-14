@@ -17,7 +17,7 @@ class CrunchStatistics
 {
     public function __construct()
     {
-        $games = Model::Factory('Games')->where('stats_crunched', 0)->limit(10)->find_many();
+        $games = Model::Factory('Games')->where('stats_crunched', 0)->limit(100)->find_many();
         if ($games) {
             foreach ($games as $game) {
                 $stats = $game->statistics;

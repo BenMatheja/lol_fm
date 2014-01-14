@@ -19,7 +19,7 @@
                 "src/main/php/"
             ]
         },
-        "notification-url": "http://packagist.org/downloads/",
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "Apache-2.0"
         ],
@@ -60,7 +60,7 @@
                 "Slim": "."
             }
         },
-        "notification-url": "http://packagist.org/downloads/",
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -111,7 +111,7 @@
                 "Slim\\Views": ""
             }
         },
-        "notification-url": "http://packagist.org/downloads/",
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -119,7 +119,7 @@
             {
                 "name": "Andrew Smith",
                 "email": "a.smith@silentworks.co.uk",
-                "homepage": "http://silentworks.co.uk/"
+                "homepage": "http://thoughts.silentworks.co.uk/"
             },
             {
                 "name": "Josh Lockhart",
@@ -166,7 +166,7 @@
                 "Twig_": "lib/"
             }
         },
-        "notification-url": "http://packagist.org/downloads/",
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "BSD-3-Clause"
         ],
