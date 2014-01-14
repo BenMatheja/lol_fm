@@ -39,9 +39,8 @@ class Request{
 /*$apiE = new ApiEndpoint();
 $request = new Request($apiE);
 $rp = new ResponseProcessor();
-$apiE->add_service('RecentGames');
-$data = $rp->process($request->performRequest($request->buildRequest('RecentGames',23107213)));
-var_dump ($data['games'][0]);*/
+$data = $rp->process($request->performRequest($request->buildRequest('SummonerNameById',23107213)));
+var_dump ($data);*/
 
 /*$apiE = new ApiEndpoint();
 $request = new Request($apiE);

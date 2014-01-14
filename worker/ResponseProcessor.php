@@ -111,6 +111,21 @@ class ResponseProcessor
         return true;
 
     }
+
+    public function processSummonerNameCall($response, $id){
+        $decoded = $this->process($response);
+        if ($decoded != null) {
+            $summoner = Model::factory('Summoner')->where('id', $id)->find_one();
+            $summoner->name = $decoded['name'];
+            $summoner->summoner_level = $decoded['summonerLevel'];
+            $summoner->profile_icon_id = $decoded['profileIconId'];
+            $summoner->riot_id = $decoded['id'];
+            $summoner->save();
+            return true;
+        } else return false;
+
+
+    }
 }
 /*
  * here are a few ways you can grab a copy of the summoner icons:

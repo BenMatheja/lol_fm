@@ -29,12 +29,22 @@ class Disponent{
         foreach($summoner as $sum){
             $new_job = Model::Factory('Jobs')->create();
             if($sum['riot_id'] != null){
+               //create recentgames job
                $new_job->services_id =  ORM::for_table('services')->where('name','RecentGames')->find_one()->id;
                $new_job->strategy = ORM::for_table('services')->where('name','RecentGames')->find_one()->strategy;
                $new_job->param = $sum['riot_id'];
                $new_job->summoner_id = $sum['id'];
                $new_job->save();
+               //create summoner update job
+               $new2_job = Model::Factory('Jobs')->create();
+               $new2_job->services_id =  ORM::for_table('services')->where('name','SummonerNameById')->find_one()->id;
+               $new2_job->strategy = ORM::for_table('services')->where('name','SummonerNameById')->find_one()->strategy;
+               $new2_job->param = $sum['riot_id'];
+               $new2_job->summoner_id = $sum['id'];
+               $new2_job->save();
+
             }
+            if($sum['name'] != null && $sum['riot_id'] == null){
             $new_job = Model::Factory('Jobs')->create();
                 $service = ORM::for_table('services')->where('name','SummonerIdByName')->find_one();
                 $new_job->services_id = $service->id;
@@ -42,6 +52,7 @@ class Disponent{
                 $new_job->param = $sum['name'];
                 $new_job->summoner_id = $sum['id'];
                 $new_job->save();
+            }
         }
     }
 

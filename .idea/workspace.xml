@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/worker/Request.php" line="43" />
+    <bookmark url="file://$PROJECT_DIR$/worker/Request.php" line="42" />
     <bookmark url="file://$PROJECT_DIR$/worker/ApiEndpoint.php" line="44" mnemonic="4" />
     <bookmark url="file://$PROJECT_DIR$/worker/Worker.php" line="41" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worker/services/SummonerNameById.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Request.php" afterPath="$PROJECT_DIR$/worker/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ResponseProcessor.php" afterPath="$PROJECT_DIR$/worker/ResponseProcessor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -31,22 +33,51 @@
     <favorites_list name="lol_fm" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5749108">
       <split-first>
         <leaf>
-          <file leaf-file-name="Disponent.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Disponent.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="935">
+                <state line="44" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.55932206" vertical-offset="102" max-vertical-offset="1122">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/Request.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="42" column="19" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="969">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SummonerIdByName.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/services/SummonerIdByName.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="0" selection-end="721" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="646">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SummonerNameById.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/services/SummonerNameById.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="697">
+                  <folding>
+                    <element signature="e#6#83#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.62711865" vertical-offset="0" max-vertical-offset="1003">
+                <state line="28" column="46" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
                   <folding />
                 </state>
               </provider>
@@ -125,7 +156,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="composer.lock" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/composer.lock">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.11758893" vertical-offset="0" max-vertical-offset="5117">
@@ -176,18 +207,20 @@
         <option value="$PROJECT_DIR$/public/services.html" />
         <option value="$PROJECT_DIR$/models/User.php" />
         <option value="$PROJECT_DIR$/models/Summoner.php" />
-        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/playground/test.php" />
         <option value="$PROJECT_DIR$/models/ChampionsCategoriesRelation.php" />
         <option value="$PROJECT_DIR$/models/ChampionCategories.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
-        <option value="$PROJECT_DIR$/worker/Disponent.php" />
         <option value="$PROJECT_DIR$/models/GamePlayers.php" />
         <option value="$PROJECT_DIR$/models/Games.php" />
         <option value="$PROJECT_DIR$/worker/test.php" />
         <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
         <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
         <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
+        <option value="$PROJECT_DIR$/worker/Request.php" />
+        <option value="$PROJECT_DIR$/worker/services/SummonerNameById.php" />
+        <option value="$PROJECT_DIR$/worker/Disponent.php" />
       </list>
     </option>
   </component>
@@ -253,6 +286,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,7 +462,11 @@
       <created>1389664536622</created>
       <updated>1389664536622</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="both crunchers finalized&#10;">
+      <created>1389664952799</created>
+      <updated>1389664952799</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="3911" selection-end="3911" vertical-scroll-proportion="-25.153847" vertical-offset="1267" max-vertical-offset="2278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
@@ -727,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Games.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="731">
@@ -764,16 +805,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.62711865" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="44" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-20.26923" vertical-offset="306" max-vertical-offset="1377">
+        <state line="21" column="39" selection-start="497" selection-end="523" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="1377">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
           </folding>
@@ -795,6 +829,50 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/services/SummonerIdByName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="0" selection-end="721" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="28" selection-start="4449" selection-end="4449" vertical-scroll-proportion="1.0989898" vertical-offset="1020" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="19" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/services/SummonerNameById.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <element signature="e#6#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.55932206" vertical-offset="102" max-vertical-offset="1122">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
