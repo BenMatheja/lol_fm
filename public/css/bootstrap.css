@@ -4350,12 +4350,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-.navbar-fader{
-    position: relative;
-    max-height:3px;
-    min-height: 3px;
-    background-color:rgba(39, 189, 129, 0.6);
-}
 .navbar-header:before,
 .navbar-header:after {
   display: table;
