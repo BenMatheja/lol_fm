@@ -6,11 +6,11 @@
  * Time: 16:04
  */
 require_once 'Config/Config.php';
-require_once 'Config/Database.php';
-require_once 'ApiEndpoint.php';
-require_once 'ResponseProcessor.php';
-require_once 'Request.php';
-require_once '../models/Jobs.php';
+require_once DIR_BASE.'Config/Database.php';
+require_once DIR_BASE.'ApiEndpoint.php';
+require_once DIR_BASE.'ResponseProcessor.php';
+require_once DIR_BASE.'Request.php';
+require_once DIR_BASE.'../models/Jobs.php';
 
 
 /**
@@ -52,7 +52,7 @@ class Worker
 
     private function loadJobs()
     {
-        $jobs = Model::factory('Jobs')->order_by_asc('inserted')->where('fulfilled', 0)->limit(15)->find_many();
+        $jobs = Model::factory('Jobs')->order_by_asc('inserted')->where('fulfilled', 0)->limit(10)->find_many();
         $this->jobs = $jobs;
     }
 

@@ -10,8 +10,8 @@
  *
  */
 require_once 'Config/Config.php';
-require_once '../models/GameStatistics.php';
-require_once '../models/Games.php';
+require_once DIR_BASE.'../models/GameStatistics.php';
+require_once DIR_BASE.'../models/Games.php';
 
 class CrunchStatistics
 {

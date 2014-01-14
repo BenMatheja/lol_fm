@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchPlayers.php" afterPath="$PROJECT_DIR$/worker/CrunchPlayers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Worker.php" afterPath="$PROJECT_DIR$/worker/Worker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/test.php" afterPath="$PROJECT_DIR$/worker/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -36,7 +40,7 @@
           <file leaf-file-name="Disponent.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="32" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="1122">
+                <state line="22" column="55" selection-start="500" selection-end="500" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1122">
                   <folding />
                 </state>
               </provider>
@@ -51,10 +55,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Worker.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Worker.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/Worker.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.5254237" vertical-offset="289" max-vertical-offset="1445">
+                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1445">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="799">
                   <folding />
                 </state>
               </provider>
@@ -80,10 +93,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="46" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
+                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="1003">
                   <folding />
                 </state>
               </provider>
@@ -92,10 +105,8 @@
           <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/test.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
-                  <folding>
-                    <element signature="e#6#83#0" expanded="true" />
-                  </folding>
+                <state line="9" column="5" selection-start="124" selection-end="133" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="323">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -118,23 +129,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Games.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/Games.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="731">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="CrunchStatistics.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="CrunchStatistics.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="44" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-20.26923" vertical-offset="306" max-vertical-offset="1377">
+                <state line="13" column="22" selection-start="297" selection-end="297" vertical-scroll-proportion="0.21859545" vertical-offset="0" max-vertical-offset="1377">
                   <folding>
                     <element signature="e#6#84#0" expanded="true" />
                   </folding>
@@ -151,10 +153,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="composer.lock" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/composer.lock">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.11758893" vertical-offset="0" max-vertical-offset="5117">
+                <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="5117">
                   <folding />
                 </state>
               </provider>
@@ -207,15 +209,15 @@
         <option value="$PROJECT_DIR$/models/ChampionCategories.php" />
         <option value="$PROJECT_DIR$/models/GamePlayers.php" />
         <option value="$PROJECT_DIR$/models/Games.php" />
-        <option value="$PROJECT_DIR$/worker/test.php" />
-        <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
-        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/services/SummonerNameById.php" />
-        <option value="$PROJECT_DIR$/worker/Disponent.php" />
+        <option value="$PROJECT_DIR$/worker/test.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
+        <option value="$PROJECT_DIR$/worker/Disponent.php" />
+        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
+        <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
       </list>
     </option>
   </component>
@@ -299,6 +301,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,7 +493,11 @@
       <created>1389666581231</created>
       <updated>1389666581231</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="limits!">
+      <created>1389666882173</created>
+      <updated>1389666882173</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -533,7 +557,8 @@
     <MESSAGE value="working as fckin intended" />
     <MESSAGE value="limits adapted" />
     <MESSAGE value="limits!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="limits!!" />
+    <MESSAGE value="limits!" />
+    <option name="LAST_COMMIT_MESSAGE" value="limits!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -729,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/SummonerStatistics.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.16601562" vertical-offset="0" max-vertical-offset="1024">
@@ -785,15 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <element signature="e#6#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/GamePlayers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="119" selection-end="119" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
@@ -808,35 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="44" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-20.26923" vertical-offset="306" max-vertical-offset="1377">
-          <folding>
-            <element signature="e#6#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.11758893" vertical-offset="0" max-vertical-offset="5117">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="46" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
@@ -871,16 +854,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
+    <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="1122">
+        <state line="9" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="124" selection-end="133" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Worker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.5254237" vertical-offset="289" max-vertical-offset="1445">
+        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="5117">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="297" selection-end="297" vertical-scroll-proportion="0.21859545" vertical-offset="0" max-vertical-offset="1377">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="55" selection-start="500" selection-end="500" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
