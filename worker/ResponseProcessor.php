@@ -12,9 +12,9 @@ class ResponseProcessor
 
     private function autoloadModels()
     {
-        $model_array = array_diff( scandir('../models'), array(".", "..",'.gitignore') );
+        $model_array = array_diff(scandir('../models'), array(".", "..", '.gitignore'));
         foreach ($model_array as $model) {
-                require_once '../models/' . $model;
+            require_once '../models/' . $model;
         }
     }
 
@@ -30,13 +30,15 @@ class ResponseProcessor
     public function processSummonerIdCall($response, $id)
     {
         $decoded = $this->process($response);
-        $summoner = Model::factory('Summoner')->where('id', $id)->find_one();
-        $summoner->name = $decoded['name'];
-        $summoner->summoner_level = $decoded['summonerLevel'];
-        $summoner->profile_icon_id = $decoded['profileIconId'];
-        $summoner->riot_id = $decoded['id'];
-        $summoner->save();
-        return true;
+        if ($decoded != null) {
+            $summoner = Model::factory('Summoner')->where('id', $id)->find_one();
+            $summoner->name = $decoded['name'];
+            $summoner->summoner_level = $decoded['summonerLevel'];
+            $summoner->profile_icon_id = $decoded['profileIconId'];
+            $summoner->riot_id = $decoded['id'];
+            $summoner->save();
+            return true;
+        } else return false;
     }
 
     /*array (size=6)
@@ -57,28 +59,29 @@ class ResponseProcessor
     {
         echo $id;
         $decoded = $this->process($response);
-
-        foreach ($decoded['games'] as $game) {
-            $lookup = Model::factory('Games')->where('summoner_id', $id)->where('riot_id', $game['gameId'])->find_one();
-            if (!$lookup) {
-                $new_game = Model::factory('Games')->create();
-                $new_game->riot_id = $game['gameId'];
-                $new_game->game_mode = $game['gameMode'];
-                $new_game->sub_type = $game['subType'];
-                $new_game->map_id = $game['mapId'];
-                $new_game->team_id = $game['teamId'];
-                $new_game->champion_id = $game['championId'];
-                $new_game->spell_1 = $game['spell1'];
-                $new_game->spell_2 = $game['spell2'];
-                $new_game->create_date = $this->transformEpoch($game['createDate']);
-                $new_game->fellow_players = json_encode($game['fellowPlayers']);
-                $new_game->statistics = json_encode($game['statistics']);
-                $new_game->summoner_id = $id;
-                $new_game->save();
+        if ($decoded != null) {
+            foreach ($decoded['games'] as $game) {
+                $lookup = Model::factory('Games')->where('summoner_id', $id)->where('riot_id', $game['gameId'])->find_one();
+                if (!$lookup) {
+                    $new_game = Model::factory('Games')->create();
+                    $new_game->riot_id = $game['gameId'];
+                    $new_game->game_mode = $game['gameMode'];
+                    $new_game->sub_type = $game['subType'];
+                    $new_game->map_id = $game['mapId'];
+                    $new_game->team_id = $game['teamId'];
+                    $new_game->champion_id = $game['championId'];
+                    $new_game->spell_1 = $game['spell1'];
+                    $new_game->spell_2 = $game['spell2'];
+                    $new_game->create_date = $this->transformEpoch($game['createDate']);
+                    $new_game->fellow_players = json_encode($game['fellowPlayers']);
+                    $new_game->statistics = json_encode($game['statistics']);
+                    $new_game->summoner_id = $id;
+                    $new_game->save();
+                }
             }
-        }
+            return true;
+        } else return false;
 
-        return true;
     }
 
     private function transformEpoch($input)
@@ -108,12 +111,6 @@ class ResponseProcessor
         return true;
 
     }
-
-    private function arrayToString($array)
-    {
-
-    }
-
 }
 /*
  * here are a few ways you can grab a copy of the summoner icons:
