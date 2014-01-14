@@ -25,8 +25,10 @@ PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=ben
 HOME=/
 #run-parts
-* * * * * /usr/bin/php /home/ben/lol_fm/worker/Worker.php
-* * * * * /usr/bin/php /home/ben/lol_fm/worker/CrunchPlayers.php
-* * * * * /usr/bin/php /home/ben/lol_fm/worker/CrunchStatistics.php
-30 * * * * /usr/bin/php /home/ben/lol_fm/worker/Disponent.php
+* * * * * /usr/bin/php /home/ben/lol_fm/worker/Worker.php >/dev/null 2>&1
+* * * * * sleep 20; /usr/bin/php /home/ben/lol_fm/worker/Worker.php >/dev/null 2>&1
+* * * * * sleep 40; /usr/bin/php /home/ben/lol_fm/worker/Worker.php >/dev/null 2>&1
+* * * * * /usr/bin/php /home/ben/lol_fm/worker/CrunchPlayers.php >/dev/null 2>&1
+* * * * * /usr/bin/php /home/ben/lol_fm/worker/CrunchStatistics.php >/dev/null 2>&1
+30 * * * * /usr/bin/php /home/ben/lol_fm/worker/Disponent.php >/dev/null 2>&1
 
