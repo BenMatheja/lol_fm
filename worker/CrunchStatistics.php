@@ -71,8 +71,6 @@ class CrunchStatistics
 
         }
     }
-
-
 }
 
 $cruncher = new CrunchStatistics();
