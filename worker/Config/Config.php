@@ -19,13 +19,6 @@ ORM::configure('mysql:host=suchtundordnung.de;dbname=lol_fm');
 ORM::configure('username', 'db_lol_remote');
 ORM::configure('password', 'db_suo_lol');
 /**
- * deprecated defines of DB
- */
-define_once('DB_HOST', 'suchtundordnung.de');
-define_once('DB_USER', 'db_lol_remote');
-define_once('DB_PASSWORD', 'db_suo_lol');
-define_once('DB_SELECT', 'lol_fm');
-/**
  * default_timezone set to Europe/Berlin
  */
 date_default_timezone_set('Europe/Berlin');

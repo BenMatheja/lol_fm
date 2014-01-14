@@ -72,7 +72,7 @@ class ResponseProcessor
                     $new_game->champion_id = $game['championId'];
                     $new_game->spell_1 = $game['spell1'];
                     $new_game->spell_2 = $game['spell2'];
-                    $new_game->create_date = $this->transformEpoch($game['createDate']);
+                    $new_game->game_end_date = $this->transformEpoch($game['createDate']);
                     $new_game->fellow_players = json_encode($game['fellowPlayers']);
                     $new_game->statistics = json_encode($game['statistics']);
                     $new_game->summoner_id = $id;

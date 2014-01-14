@@ -6,20 +6,36 @@
  * Time: 16:04
  */
 require_once 'Config/Config.php';
-require_once DIR_BASE.'Config/Database.php';
-require_once DIR_BASE.'ApiEndpoint.php';
-require_once DIR_BASE.'ResponseProcessor.php';
-require_once DIR_BASE.'Request.php';
-require_once DIR_BASE.'../models/Job.php';
+require_once DIR_BASE . 'ApiEndpoint.php';
+require_once DIR_BASE . 'ResponseProcessor.php';
+require_once DIR_BASE . 'Request.php';
+require_once DIR_BASE . '../models/Job.php';
 
 
 /**
  * Init the Worker
  * build to cron
- */
+ * // $data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
+ * /*
+ * array (size=2)
+ * 0 =>
+ * array (size=6)
+ * 'id' => string '1' (length=1)
+ * 'service' => string '1' (length=1)
+ * 'param' => string 'DwayneHart' (length=10)
+ * 'summoner_id' => string '2' (length=1)
+ * 'inserted' => string '2014-01-12 17:09:41' (length=19)
+ * 'fulfilled' => string '0' (length=1)
+ * 1 =>
+ * array (size=6)
+ * 'id' => string '2' (length=1)
+ * 'service' => string '2' (length=1)
+ * 'param' => string '19646272' (length=8)
+ * 'summoner_id' => string '1' (length=1)
+ * 'inserted' => string '2014-01-12 17:55:01' (length=19)
+ * 'fulfilled' => string '0' (length=1)*/
 class Worker
 {
-    private $request_counter = 0;
     private $api_endpoint;
     private $rp;
     private $request;
@@ -43,7 +59,6 @@ class Worker
                 if ($this->rp->$strategy($response, $job->summoner_id)) {
                     $job->fulfilled = 1;
                     $job->fulfilled_at = date('Y-m-d H:i:s');
-                    $this->request_counter++;
                     $job->save();
                 }
             }
@@ -59,22 +74,3 @@ class Worker
 }
 
 $w = new Worker();
-// $data = $rp->process($request->performRequest($request->buildRequest('SummonerIdByName', 'dwaynehart')));
-/*
-array (size=2)
-0 =>
-array (size=6)
-'id' => string '1' (length=1)
-'service' => string '1' (length=1)
-'param' => string 'DwayneHart' (length=10)
-'summoner_id' => string '2' (length=1)
-'inserted' => string '2014-01-12 17:09:41' (length=19)
-'fulfilled' => string '0' (length=1)
-1 =>
-array (size=6)
-'id' => string '2' (length=1)
-'service' => string '2' (length=1)
-'param' => string '19646272' (length=8)
-'summoner_id' => string '1' (length=1)
-'inserted' => string '2014-01-12 17:55:01' (length=19)
-'fulfilled' => string '0' (length=1)*/
