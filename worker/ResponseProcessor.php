@@ -12,9 +12,9 @@ class ResponseProcessor
 
     private function autoloadModels()
     {
-        $model_array = array_diff(scandir('../models'), array(".", "..", '.gitignore'));
+        $model_array = array_diff(scandir(DIR_BASE.'../models'), array(".", "..", '.gitignore'));
         foreach ($model_array as $model) {
-            require_once '../models/' . $model;
+            require_once DIR_BASE.'../models/' . $model;
         }
     }
 

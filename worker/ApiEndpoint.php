@@ -17,7 +17,7 @@ class ApiEndpoint {
 	}
 
     public function __autoload($name){
-        include 'services/'.$name . '.php';
+        include DIR_BASE.'services/'.$name . '.php';
     }
 	/**
 	* Services are stored in registered services

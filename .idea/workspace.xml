@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Config/Config.php" afterPath="$PROJECT_DIR$/worker/Config/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ApiEndpoint.php" afterPath="$PROJECT_DIR$/worker/ApiEndpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ResponseProcessor.php" afterPath="$PROJECT_DIR$/worker/ResponseProcessor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -42,6 +43,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="ResponseProcessor.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="52" selection-start="467" selection-end="467" vertical-scroll-proportion="-1.030303" vertical-offset="1377" max-vertical-offset="2533">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/Request.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -51,19 +61,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Worker.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/worker/Worker.php">
+          <file leaf-file-name="ApiEndpoint.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/worker/ApiEndpoint.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1445">
+                <state line="15" column="38" selection-start="500" selection-end="500" vertical-scroll-proportion="1.9615384" vertical-offset="306" max-vertical-offset="1309">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Config.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.22033899" vertical-offset="0" max-vertical-offset="1003">
+                <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="799">
                   <folding>
                     <element signature="e#6#83#0" expanded="true" />
                   </folding>
@@ -118,15 +128,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Summoner.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/Summoner.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="41" selection-start="488" selection-end="488" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="663">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -134,7 +135,7 @@
           <file leaf-file-name="CrunchStatistics.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="22" selection-start="297" selection-end="297" vertical-scroll-proportion="0.21859545" vertical-offset="0" max-vertical-offset="1377">
+                <state line="48" column="8" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.80712163" vertical-offset="0" max-vertical-offset="1377">
                   <folding>
                     <element signature="e#6#84#0" expanded="true" />
                   </folding>
@@ -208,7 +209,6 @@
         <option value="$PROJECT_DIR$/models/GamePlayers.php" />
         <option value="$PROJECT_DIR$/models/Games.php" />
         <option value="$PROJECT_DIR$/composer.lock" />
-        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/services/SummonerNameById.php" />
         <option value="$PROJECT_DIR$/worker/test.php" />
@@ -217,6 +217,8 @@
         <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
         <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
         <option value="$PROJECT_DIR$/worker/Config/Config.php" />
+        <option value="$PROJECT_DIR$/worker/ApiEndpoint.php" />
+        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
       </list>
     </option>
   </component>
@@ -500,7 +502,11 @@
       <created>1389667813260</created>
       <updated>1389667813260</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="absolute paths added&#10;">
+      <created>1389667879598</created>
+      <updated>1389667879598</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -835,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="28" selection-start="4449" selection-end="4449" vertical-scroll-proportion="1.0989898" vertical-offset="1020" max-vertical-offset="2533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="19" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="969">
@@ -865,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Worker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="5117">
@@ -880,15 +872,6 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="297" selection-end="297" vertical-scroll-proportion="0.21859545" vertical-offset="0" max-vertical-offset="1377">
-          <folding>
-            <element signature="e#6#84#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
@@ -907,10 +890,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.22033899" vertical-offset="0" max-vertical-offset="1003">
+        <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="799">
           <folding>
             <element signature="e#6#83#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.80712163" vertical-offset="0" max-vertical-offset="1377">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Worker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="453" selection-end="453" vertical-scroll-proportion="0.3220339" vertical-offset="51" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/ApiEndpoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="500" selection-end="500" vertical-scroll-proportion="1.9615384" vertical-offset="306" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="467" selection-end="467" vertical-scroll-proportion="-1.030303" vertical-offset="1377" max-vertical-offset="2533">
+          <folding />
         </state>
       </provider>
     </entry>
