@@ -6,13 +6,14 @@
  * Time: 01:37
  */
 
-$string = '[{"id":1,"name":"LEVEL","value":11},{"id":1003,"name":"TOTAL_PLAYER_SCORE","value":167},{"id":2,"name":"GOLD_EARNED","value":5294},{"id":1002,"name":"TEAM_OBJECTIVE","value":1},{"id":1005,"name":"OBJECTIVE_PLAYER_SCORE","value":167},{"id":23,"name":"WIN","value":1},{"id":1006,"name":"VICTORY_POINT_TOTAL","value":373},{"id":1009,"name":"TOTAL_SCORE_RANK","value":5},{"id":24,"name":"TEAM","value":200},{"id":40,"name":"TIME_PLAYED","value":789},{"id":94,"name":"WAS_AFK","value":1}]';
+$string = '[{"summonerId":21150464,"teamId":200,"championId":44},{"summonerId":31417239,"teamId":100,"championId":53},{"summonerId":38508562,"teamId":200,"championId":133},{"summonerId":21136280,"teamId":200,"championId":5},{"summonerId":38514216,"teamId":100,"championId":119},{"summonerId":29089074,"teamId":100,"championId":238},{"summonerId":20969917,"teamId":200,"championId":24},{"summonerId":26167730,"teamId":200,"championId":45},{"summonerId":30951144,"teamId":100,"championId":86}]';
 $array = json_decode($string,true);
 
-foreach ($array as $key=>$value){
+/*foreach ($array as $key=>$value){
 
-    $tmp[$value['name']] = $value['value'];
-}
+    $tmp[$value['summonerId']] = $value['championId'];
+}*/
 
-var_dump($tmp);
+var_dump($array);
+
 

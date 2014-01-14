@@ -47,11 +47,7 @@ class Disponent{
 
 
     public function run(){
-        while(true){
-            $this->CreateJobsForSummonerProfiles();
-        sleep(300);
-
-       }
+         $this->CreateJobsForSummonerProfiles();
     }
 }
 

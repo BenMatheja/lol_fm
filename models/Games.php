@@ -28,7 +28,11 @@ class Games extends Model{
         return $this->has_one('GameStatistics');
     }
 
-    public function champions(){
-        return $this->has_many('Champions');
+    public function champion(){
+        return $this->has_one('Champions');
+    }
+
+    public function players(){
+        return $this->has_many('GamePlayers');
     }
  }
