@@ -1,8 +1,8 @@
 <?php
 require_once 'Config/Config.php';
-require_once '../models/Champions.php';
-require_once '../models/ChampionCategories.php';
-require_once '../models/ChampionsCategoriesRelation.php';
+require_once '../models/Champion.php';
+require_once '../models/ChampionCategory.php';
+require_once '../models/ChampionCategoryRelation.php';
 
 
 /**

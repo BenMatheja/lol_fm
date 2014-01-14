@@ -5,10 +5,10 @@
  * Date: 12/01/14
  * Time: 19:37
  */
-class Services extends Model{
+class Service extends Model{
 
-    public function Jobs(){
-        return $this->has_many('Jobs');
+    public function job(){
+        return $this->has_many('Job');
     }
 
 }

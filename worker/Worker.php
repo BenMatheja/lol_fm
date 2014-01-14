@@ -10,7 +10,7 @@ require_once DIR_BASE.'Config/Database.php';
 require_once DIR_BASE.'ApiEndpoint.php';
 require_once DIR_BASE.'ResponseProcessor.php';
 require_once DIR_BASE.'Request.php';
-require_once DIR_BASE.'../models/Jobs.php';
+require_once DIR_BASE.'../models/Job.php';
 
 
 /**

@@ -17,13 +17,13 @@ class Summoner extends Model
     public $summoner_level;
      */
 
-    public function games()
+    public function game()
     {
-        return $this->has_many('Games');
+        return $this->has_many('Game');
     }
 
-   public function statistics(){
-       return $this->has_one('SummonerStatistics');
+   public function statistic(){
+       return $this->has_one('SummonerStatistic');
 
    }
 

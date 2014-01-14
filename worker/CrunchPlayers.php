@@ -6,9 +6,9 @@
  * Time: 02:19
  */
 require_once 'Config/Config.php';
-require_once DIR_BASE.'../models/GameStatistics.php';
-require_once DIR_BASE.'../models/Games.php';
-require_once DIR_BASE.'../models/GamePlayers.php';
+require_once DIR_BASE.'../models/GameStatistic.php';
+require_once DIR_BASE.'../models/Game.php';
+require_once DIR_BASE.'../models/GamePlayer.php';
 require_once DIR_BASE.'../models/Summoner.php';
 
 class CrunchPlayers

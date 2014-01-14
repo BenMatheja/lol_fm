@@ -5,7 +5,7 @@
  * Date: 12/01/14
  * Time: 18:33
  */
-class Games extends Model{
+class Game extends Model{
     /*
      public $id;
      public $summoner_id;
@@ -25,14 +25,14 @@ class Games extends Model{
     }
 
     public function statistics(){
-        return $this->has_one('GameStatistics');
+        return $this->has_one('GameStatistic');
     }
 
     public function champion(){
-        return $this->has_one('Champions');
+        return $this->has_one('Champion');
     }
 
     public function players(){
-        return $this->has_many('GamePlayers');
+        return $this->has_many('GamePlayer');
     }
  }

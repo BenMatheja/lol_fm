@@ -48,8 +48,8 @@
 'ASSISTS' => int 6
  */
 require_once 'Config/Config.php';
-require_once DIR_BASE.'../models/GameStatistics.php';
-require_once DIR_BASE.'../models/Games.php';
+require_once DIR_BASE.'../models/GameStatistic.php';
+require_once DIR_BASE.'../models/Game.php';
 
 class CrunchStatistics
 {

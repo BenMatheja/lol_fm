@@ -5,6 +5,6 @@
  * Date: 14/01/14
  * Time: 00:50
  */
-class ChampionsCategoriesRelation extends Model{
+class ChampionCategoryRelation extends Model{
 
 }

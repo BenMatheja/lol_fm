@@ -5,9 +5,9 @@
  * Date: 1/13/14
  * Time: 11:16 AM
  */
-class SummonerStatistics extends Model{
+class SummonerStatistic extends Model{
 
-    public function Summoner(){
+    public function summoner(){
         $this->belongs_to('Summoner');
     }
 }
