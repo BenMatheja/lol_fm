@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchPlayers.php" afterPath="$PROJECT_DIR$/worker/CrunchPlayers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Worker.php" afterPath="$PROJECT_DIR$/worker/Worker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/test.php" afterPath="$PROJECT_DIR$/worker/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Config/Config.php" afterPath="$PROJECT_DIR$/worker/Config/Config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -64,11 +60,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Config.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="799">
-                  <folding />
+                <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.22033899" vertical-offset="0" max-vertical-offset="1003">
+                  <folding>
+                    <element signature="e#6#83#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -93,10 +91,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="1003">
+                <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="833">
                   <folding />
                 </state>
               </provider>
@@ -218,6 +216,7 @@
         <option value="$PROJECT_DIR$/worker/Disponent.php" />
         <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
         <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
+        <option value="$PROJECT_DIR$/worker/Config/Config.php" />
       </list>
     </option>
   </component>
@@ -497,7 +496,11 @@
       <created>1389666882173</created>
       <updated>1389666882173</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="absolute paths added&#10;">
+      <created>1389667813260</created>
+      <updated>1389667813260</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,7 +561,8 @@
     <MESSAGE value="limits adapted" />
     <MESSAGE value="limits!!" />
     <MESSAGE value="limits!" />
-    <option name="LAST_COMMIT_MESSAGE" value="limits!" />
+    <MESSAGE value="absolute paths added&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="absolute paths added&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="124" selection-end="133" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="323">
@@ -903,8 +900,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="1003">
+        <state line="7" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="833">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.22033899" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#6#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,13 +5,13 @@
  * Date: 12/01/14
  * Time: 16:04
  */
-require_once '../vendor/j4mie/idiorm/idiorm.php';
-require_once '../vendor/j4mie/paris/paris.php';
 /**
  * define for directories
  */
 define_once('DIR_BASE', dirname(dirname(__FILE__)) . '/');
 define_once('DIR_LOG', DIR_BASE . 'log/');
+require_once DIR_BASE.'../vendor/j4mie/idiorm/idiorm.php';
+require_once DIR_BASE.'../vendor/j4mie/paris/paris.php';
 /**
  * Configuration of idiORM
  */
