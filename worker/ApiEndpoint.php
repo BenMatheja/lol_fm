@@ -40,7 +40,7 @@ class ApiEndpoint {
      * adds available services at runtime
      */
     private function addAvailableServices(){
-        $dir =  scandir('services');
+        $dir =  scandir(DIR_BASE.'services');
         $service_array = array_diff($dir, array('.','..'));
         foreach( $service_array as $service) {
             $tmp = explode('.',$service);
