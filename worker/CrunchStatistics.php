@@ -75,7 +75,7 @@ class CrunchStatistics
                     $new_stats->total_damage_dealt = $mapping['TOTAL_DAMAGE_DEALT'];
                     $new_stats->total_damage_taken = $mapping['TOTAL_DAMAGE_TAKEN'];
                     $new_stats->lose = $mapping['LOSE'];
-                    $new_stats->win = $mapping['WIN'];
+
                     $new_stats->team = $mapping['TEAM'];
                     //Items
                     $new_stats->item0 = $mapping['ITEM0'];
@@ -85,7 +85,7 @@ class CrunchStatistics
                     $new_stats->item4 = $mapping['ITEM4'];
                     $new_stats->item5 = $mapping['ITEM5'];
                     $new_stats->item6 = $mapping['ITEM6'];
-
+                    $new_stats->win = $mapping['WIN'];
                     $new_stats->largest_multi_kill = $mapping['LARGEST_MULTI_KILL'];
                     $new_stats->neutral_minions_killed = $mapping['NEUTRAL_MINIONS_KILLED'];
 

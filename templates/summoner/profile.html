@@ -23,9 +23,10 @@
                 <th>stats</th>
             </tr>
             {% for game in games %}
-            <tr class= {% if game.lose == null %}
+            <tr class= {% if game.win == 1 %}
                         "tr-victorious"
-                        {% elseif game.lose == 1 %}
+                        {%endif %}
+                        {% if game.lose == 1 %}
                         "tr-defeated"
                         {% endif %}
                         >
