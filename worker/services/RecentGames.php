@@ -10,7 +10,7 @@ class RecentGames{
 	private $uri_tail;
 
 	public function __construct(){
-		$this->uri_head = "/v1.1/game/by-summoner/";
+		$this->uri_head = "/v1.3/game/by-summoner/";
 		$this->uri_tail = "/recent";
 		$this->id_set = false;
 		$this->summoner_id = null;

@@ -7,136 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Aatrox_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Ahri_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Akali_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Alistar_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Amumu_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Anivia_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Annie_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Ashe_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Blitzcrank_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Brand_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Caitlyn_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Cassiopeia_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Chogath_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Corki_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Darius_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Diana_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/DrMundo_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Draven_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Elise_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Evelynn_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Ezreal_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Fiddlesticks_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Fiddlesticks_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Fiora_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Fizz_square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Galio_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Gangplank_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Garen_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Gragas_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Graves_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Hecarim_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Heimerdinger_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Irelia_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Janna_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/JarvanIV_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Jax_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Jayce_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Jinx_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Karma_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Karthus_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Kassadin_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Katarina_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Kayle_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Kennen_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Khazix_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/KogMaw_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Leblanc_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/LeeSin_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Leona_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Lissandra_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Lucian_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Lulu_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Lux_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Malphite_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Malzahar_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Maokai_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/MasterYi_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/MissFortune_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/MonkeyKing_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Mordekaiser_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Morgana_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nami_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nasus_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nautilus_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nidalee_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nocturne_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Nunu_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Olaf_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Orianna_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Pantheon_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Poppy_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Quinn_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Rammus_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Renekton_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Rengar_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Riven_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Rumble_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Ryze_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Sejuani_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Shaco_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Shen_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Shyvana_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Singed_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Sion_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Sivir_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Skarner_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Sona_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Soraka_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Swain_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Syndra_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Talon_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Taric_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Teemo_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Thresh_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Tristana_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Trundle_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Tryndamere_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/TwistedFate_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Twitch_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Udyr_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Urgot_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Varus_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Vayne_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Veigar_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Vi_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Viktor_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Vladimir_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Volibear_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Warwick_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Xerath_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/XinZhao_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Yasuo_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Yorick_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Zac_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Zed_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Ziggs_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Zilean_Square_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/champion_icons/Zyra_Square_0.png" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNCho'Gath.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNDr. Mundo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNJarvan IV.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNKog'Maw.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNLee Sin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNMaster Yi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNMiss Fortune.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNTwisted Fate.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNWukong.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ben\Documents\GitHub\lol_fm\public\img\champion_icons\BTNXin Zhao.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/CrunchStatistics.php" afterPath="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/summoner/profile.html" afterPath="$PROJECT_DIR$/templates/summoner/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/services/RecentGames.php" afterPath="$PROJECT_DIR$/worker/services/RecentGames.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Request.php" afterPath="$PROJECT_DIR$/worker/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ResponseProcessor.php" afterPath="$PROJECT_DIR$/worker/ResponseProcessor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/test.php" afterPath="$PROJECT_DIR$/worker/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -164,7 +39,7 @@
       <file leaf-file-name="summoner.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/summoner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="52" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="493">
+            <state line="14" column="52" selection-start="353" selection-end="353" vertical-scroll-proportion="-0.0" vertical-offset="238" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -173,7 +48,7 @@
       <file leaf-file-name="Game.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="731">
+            <state line="19" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -182,16 +57,43 @@
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="19" selection-start="6646" selection-end="6646" vertical-scroll-proportion="0.0" vertical-offset="1823" max-vertical-offset="2924">
+            <state line="150" column="19" selection-start="6646" selection-end="6646" vertical-scroll-proportion="-27.961538" vertical-offset="1823" max-vertical-offset="2924">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrunchStatistics.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
+      <file leaf-file-name="Disponent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="63" selection-start="1889" selection-end="1889" vertical-scroll-proportion="-0.08501594" vertical-offset="1066" max-vertical-offset="2091">
+            <state line="36" column="61" selection-start="743" selection-end="743" vertical-scroll-proportion="0.34325185" vertical-offset="204" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecentGames.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/worker/services/RecentGames.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="270" selection-end="270" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseProcessor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="55" selection-start="2585" selection-end="2585" vertical-scroll-proportion="-26.153847" vertical-offset="612" max-vertical-offset="2567">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrunchPlayers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="55" selection-start="639" selection-end="639" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -218,25 +120,7 @@
       <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="15" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="small-business.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/small-business.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
+            <state line="60" column="34" selection-start="1195" selection-end="3937" vertical-scroll-proportion="-29.807692" vertical-offset="245" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -275,13 +159,10 @@
         <option value="$PROJECT_DIR$/models/Services.php" />
         <option value="$PROJECT_DIR$/models/SummonerStatistics.php" />
         <option value="$PROJECT_DIR$/worker/Replenish.php" />
-        <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/Worker.php" />
         <option value="$PROJECT_DIR$/worker/Config/Config.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/worker/CrunchPlayers.php" />
-        <option value="$PROJECT_DIR$/worker/Disponent.php" />
-        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
         <option value="$PROJECT_DIR$/routes/profile.php" />
         <option value="$PROJECT_DIR$/models/GamePlayer.php" />
         <option value="$PROJECT_DIR$/models/Champion.php" />
@@ -296,8 +177,12 @@
         <option value="$PROJECT_DIR$/routes/summoner.php" />
         <option value="$PROJECT_DIR$/public/css/small-business.css" />
         <option value="$PROJECT_DIR$/templates/summoner/profile.html" />
-        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
+        <option value="$PROJECT_DIR$/worker/services/RecentGames.php" />
+        <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/test.php" />
+        <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
+        <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
+        <option value="$PROJECT_DIR$/worker/Disponent.php" />
       </list>
     </option>
   </component>
@@ -343,6 +228,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol_fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -350,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="'" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../disg3" />
     <property name="FullScreen" value="false" />
@@ -560,19 +501,24 @@
       <created>1389749878917</created>
       <updated>1389749878917</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added champion icons">
+      <created>1389815530064</created>
+      <updated>1389815530064</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14375" sideWeight="0.6718266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14375" sideWeight="0.6718266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07799443" sideWeight="0.50088185" order="9" side_tool="true" content_ui="tabs" />
@@ -582,7 +528,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704994" sideWeight="0.49911818" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -600,7 +545,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Idiorm &amp; paris added to worker .. slick!" />
     <MESSAGE value="First Job is automatically processed !&#10;" />
     <MESSAGE value="Worker is running&#10;" />
     <MESSAGE value="time issues fixed, disponent running" />
@@ -625,11 +569,12 @@
     <MESSAGE value="refactoring has begun" />
     <MESSAGE value="refactoring done&#10;" />
     <MESSAGE value="minor changes to crunchers, some design work" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes to crunchers, some design work" />
+    <MESSAGE value="added champion icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added champion icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -667,7 +612,9 @@
     <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="21" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2159">
-          <folding />
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +625,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="33" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1360" />
+        <state line="67" column="33" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1360">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Replenish.php">
@@ -695,7 +644,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="45" selection-start="3057" selection-end="3057" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2533" />
+        <state line="94" column="45" selection-start="3057" selection-end="3057" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2533">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Worker.php">
@@ -703,11 +654,6 @@
         <state line="54" column="35" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/services/RecentGames.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="78" selection-end="78" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/services/SummonerIdByName.php">
@@ -747,13 +693,6 @@
         <state line="13" column="5" selection-start="211" selection-end="211" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/Worker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="1" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-1.6538461" vertical-offset="586" max-vertical-offset="1394">
@@ -764,21 +703,6 @@
     <entry file="file://$PROJECT_DIR$/worker/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="3" selection-start="646" selection-end="646" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="40" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-14.076923" vertical-offset="416" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="37" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-19.461538" vertical-offset="718" max-vertical-offset="2533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-18.346153" vertical-offset="16" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
@@ -863,20 +787,6 @@
         <state line="14" column="2" selection-start="324" selection-end="324" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="19" selection-start="6646" selection-end="6646" vertical-scroll-proportion="0.0" vertical-offset="1823" max-vertical-offset="2924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="238">
@@ -905,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/summoner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="52" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="493">
@@ -919,9 +822,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="845" selection-end="845" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="34" selection-start="1195" selection-end="3937" vertical-scroll-proportion="-29.807692" vertical-offset="245" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="19" selection-start="6646" selection-end="6646" vertical-scroll-proportion="-27.961538" vertical-offset="1823" max-vertical-offset="2924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="55" selection-start="2585" selection-end="2585" vertical-scroll-proportion="-26.153847" vertical-offset="612" max-vertical-offset="2567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/CrunchPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="55" selection-start="639" selection-end="639" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/services/RecentGames.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="270" selection-end="270" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/worker/CrunchStatistics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="63" selection-start="1889" selection-end="1889" vertical-scroll-proportion="-0.08501594" vertical-offset="1066" max-vertical-offset="2091">
+        <state line="116" column="58" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.23273113" vertical-offset="1753" max-vertical-offset="2720">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="61" selection-start="743" selection-end="743" vertical-scroll-proportion="0.34325185" vertical-offset="204" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>

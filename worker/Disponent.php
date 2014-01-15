@@ -34,11 +34,11 @@ class Disponent
 
     public function CreateJobsForSummonerProfiles()
     {
-        $summoner = Model::Factory('Summoner')->where('is_user',1)->find_array();
+        $summoner = Model::Factory('Summoner')->find_array();
         foreach ($summoner as $sum) {
             $new_job = Model::Factory('Job')->create();
             if ($sum['riot_id'] != null) {
-                //only create jobs for summoners who are users
+                //only create jobs for summoners who are users $sum['is_user'] == 1 ->where('is_user',1)
                 if ($sum['is_user'] == 1) {
                     //create recentgames job
                     $new_job->service_id = ORM::for_table('service')->where('name', 'RecentGames')->find_one()->id;

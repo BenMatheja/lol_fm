@@ -65,17 +65,19 @@ class ResponseProcessor
                 if (!$lookup) {
                     $new_game = Model::factory('Game')->create();
                     $new_game->riot_id = $game['gameId'];
-                    $new_game->game_mode = $game['gameMode'];
-                    $new_game->sub_type = $game['subType'];
-                    $new_game->map_id = $game['mapId'];
-                    $new_game->team_id = $game['teamId'];
+                    $new_game->summoner_id = $id;
                     $new_game->champion_id = $game['championId'];
+                    $new_game->game_end_date = $this->transformEpoch($game['createDate']);
+                    $new_game->game_mode = $game['gameMode'];
+                    $new_game->game_type = $game['gameType'];
+                    $new_game->invalid = $game['invalid'];
+                    $new_game->map_id = $game['mapId'];
                     $new_game->spell_1 = $game['spell1'];
                     $new_game->spell_2 = $game['spell2'];
-                    $new_game->game_end_date = $this->transformEpoch($game['createDate']);
+                    $new_game->stats = json_encode($game['stats']);
+                    $new_game->sub_type = $game['subType'];
+                    $new_game->team_id = $game['teamId'];
                     $new_game->fellow_players = json_encode($game['fellowPlayers']);
-                    $new_game->statistics = json_encode($game['statistics']);
-                    $new_game->summoner_id = $id;
                     $new_game->save();
                 }
             }
