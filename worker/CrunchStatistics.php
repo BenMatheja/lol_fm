@@ -75,6 +75,7 @@ class CrunchStatistics
                     $new_stats->total_damage_dealt = $mapping['TOTAL_DAMAGE_DEALT'];
                     $new_stats->total_damage_taken = $mapping['TOTAL_DAMAGE_TAKEN'];
                     $new_stats->lose = $mapping['LOSE'];
+                    $new_stats->win = $mapping['WIN'];
                     $new_stats->team = $mapping['TEAM'];
                     //Items
                     $new_stats->item0 = $mapping['ITEM0'];

@@ -7,4 +7,6 @@
  */
 class GamePlayer extends Model{
 
+
+
 }

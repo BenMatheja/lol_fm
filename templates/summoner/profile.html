@@ -1,0 +1,42 @@
+{% extends "profile.html" %}
+
+{% block main %}
+{% set imageSource = '/img/summoner_icons/' ~ summoner.profile_icon_id ~ '.png' %}
+<div class="col-xs-8 col-xs-offset-2 row">
+    <div class="col-xs-8">
+        <img class="img-circle" width="100px" src = {{ imageSource }}>
+    </div>
+    <div class="col-xs-6">
+        <h2>{{ summoner.name }}</h2>
+        <div>
+            <h4>{{summoner.summoner_level}}</h4>
+        </div>
+    </div>
+</div>
+</div>
+<div class="row col-xs-8 col-xs-offset-2">
+    <div class="row">
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Cpicture</th>
+                <th>inform</th>
+                <th>stats</th>
+            </tr>
+            {% for game in games %}
+            <tr class= {% if game.lose == null %}
+                        "tr-victorious"
+                        {% elseif game.lose == 1 %}
+                        "tr-defeated"
+                        {% endif %}
+                        >
+                {% set ChampionImage = '/img/champion_icons/' ~ game.name ~ '_Square_0.png' %}
+                <td><img class="img-responsive" src={{ ChampionImage }}></td>
+                <td>{{game.game_end_date}} K: {{game.champions_killed}} - D:{{game.num_deaths}} - A:{{game.assists}} - {{game.minions_killed}} CS</td>
+                <td>{{game.game_mode}} {{game.sub_type}} </td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+</div>
+{% endblock %}

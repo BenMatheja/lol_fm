@@ -29,10 +29,10 @@ class Game extends Model{
     }
 
     public function champion(){
-        return $this->has_one('Champion');
+        return $this->belongs_to('Champion');
     }
 
     public function players(){
-        return $this->has_many('GamePlayer');
+        return $this->has_many_through('Summoner','GamePlayer');
     }
  }

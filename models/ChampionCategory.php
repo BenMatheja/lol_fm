@@ -9,7 +9,7 @@
 class ChampionCategory extends Model
 {
 
-    public function Champion()
+    public function champions()
     {
         return $this->has_many_through('Champion', 'ChampionCategoryRelation');
     }
