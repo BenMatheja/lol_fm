@@ -46,7 +46,7 @@ class Disponent
                     $new_job->param = $sum['riot_id'];
                     $new_job->summoner_id = $sum['id'];
                     $new_job->save();
-                }
+
                 //create summoner update job
                 $new2_job = Model::Factory('Job')->create();
                 $new2_job->service_id = ORM::for_table('service')->where('name', 'SummonerNameById')->find_one()->id;
@@ -54,6 +54,7 @@ class Disponent
                 $new2_job->param = $sum['riot_id'];
                 $new2_job->summoner_id = $sum['id'];
                 $new2_job->save();
+                }
 
 
             }
