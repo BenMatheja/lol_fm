@@ -2,12 +2,15 @@
 
 {% block main %}
 {% set imageSource = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/profileicon/' ~ summoner.profile_icon_id ~ '.png' %}
+{% set itemSource = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/item/' %}
+
 <div class="col-xs-8 col-xs-offset-2 row">
     <div class="col-xs-8">
-        <img class="img-circle" width="100px" src = {{ imageSource }}>
+        <img class="img-circle" width="100px" src={{ imageSource }}>
     </div>
     <div class="col-xs-6">
         <h2>{{ summoner.name }}</h2>
+
         <div>
             <h4>{{summoner.summoner_level}}</h4>
         </div>
@@ -23,16 +26,51 @@
                 <th>stats</th>
             </tr>
             {% for game in games %}
-            <tr class= {% if game.win == 1 %}
-                        "tr-victorious"
-                        {% else %}
-                        "tr-defeated"
-                        {% endif %}
-                        >
-                {% set ChampionImage = '/img/champion_icons/' ~ game.name ~ '_Square_0.png' %}
-                <td><img class="img-responsive" src={{ ChampionImage }}></td>
-                <td>{{game.game_end_date}} K: {{game.champions_killed}} - D:{{game.num_deaths}} - A:{{game.assists}} - {{game.minions_killed}} CS</td>
-                <td>{{game.game_mode}} {{game.sub_type}} </td>
+            <tr class={% if game.win==
+            1 %}
+            "tr-victorious"
+            {% else %}
+            "tr-defeated"
+            {% endif %}
+            >
+            {% set ChampionImage = '/img/champion_icons/' ~ game.name ~ '_Square_0.png' %}
+            {% set GameIcon0 = itemSource ~ game.item0 ~'.png' %}
+            {% set GameIcon1 = itemSource ~ game.item1 ~'.png' %}
+            {% set GameIcon2 = itemSource ~ game.item2 ~'.png' %}
+            {% set GameIcon3 = itemSource ~ game.item3 ~'.png' %}
+            {% set GameIcon4 = itemSource ~ game.item4 ~'.png' %}
+            {% set GameIcon5 = itemSource ~ game.item5 ~'.png' %}
+            {% set GameIcon6 = itemSource ~ game.item6 ~'.png' %}
+
+            <td><img class="img-responsive" src={{ ChampionImage }}></td>
+            <td>{{game.game_end_date}} K: {{game.champions_killed}} - D:{{game.num_deaths}} - A:{{game.assists}} -
+                {{game.minions_killed}} CS
+                <div class="imgcontainer">
+                    {% if game.item0 %}
+                    <img class="" src={{GameIcon0}}>
+                    {% endif %}
+                    {% if game.item1 %}
+                    <img class="" src={{GameIcon1}}>
+                    {% endif %}
+                    {% if game.item2 %}
+                    <img class="" src={{GameIcon2}}>
+                    {% endif %}
+                    {% if game.item3 %}
+                    <img class="" src={{GameIcon3}}>
+                    {% endif %}
+                    {% if game.item4 %}
+                    <img class="" src={{GameIcon4}}>
+                    {% endif %}
+                    {% if game.item5 %}
+                    <img class="" src={{GameIcon5}}>
+                    {% endif %}
+                    {% if game.item6 %}
+                    <img class="" src={{GameIcon6}}>
+                    {% endif %}
+                </div>
+            </td>
+
+            <td>{{game.game_mode}} {{game.sub_type}}</td>
             </tr>
             {% endfor %}
 

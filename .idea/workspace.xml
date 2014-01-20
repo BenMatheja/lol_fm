@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/DatabaseCleaner.php" afterPath="$PROJECT_DIR$/worker/DatabaseCleaner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/Disponent.php" afterPath="$PROJECT_DIR$/worker/Disponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/ResponseProcessor.php" afterPath="$PROJECT_DIR$/worker/ResponseProcessor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/summoner/profile.html" afterPath="$PROJECT_DIR$/templates/summoner/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/small-business.css" afterPath="$PROJECT_DIR$/public/css/small-business.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -33,10 +31,19 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="ResponseProcessor.php" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="ResponseProcessor.php" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="112" column="20" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.6578171" vertical-offset="1235" max-vertical-offset="2601">
+                  <state line="142" column="128" selection-start="5266" selection-end="5315" vertical-scroll-proportion="-31.923077" vertical-offset="1584" max-vertical-offset="2601">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="profile.html" pinned="false" current="true" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/templates/summoner/profile.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="68" column="30" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.7083754" vertical-offset="454" max-vertical-offset="1445">
                     <folding />
                   </state>
                 </provider>
@@ -53,10 +60,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Disponent.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Disponent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="43" selection-start="2024" selection-end="2024" vertical-scroll-proportion="0.66635513" vertical-offset="222" max-vertical-offset="1292">
+            <state line="60" column="43" selection-start="2024" selection-end="2024" vertical-scroll-proportion="-27.461538" vertical-offset="221" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/summoner/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -66,6 +82,15 @@
         <entry file="file://$PROJECT_DIR$/worker/Worker.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="48" column="5" selection-start="1339" selection-end="1339" vertical-scroll-proportion="-18.923077" vertical-offset="324" max-vertical-offset="1394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small-business.css" pinned="false" current="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/small-business.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="13" selection-start="698" selection-end="698" vertical-scroll-proportion="0.65323335" vertical-offset="0" max-vertical-offset="1067">
               <folding />
             </state>
           </provider>
@@ -121,15 +146,15 @@
         <option value="$PROJECT_DIR$/models/Summoner.php" />
         <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/routes/summoner.php" />
-        <option value="$PROJECT_DIR$/public/css/small-business.css" />
         <option value="$PROJECT_DIR$/worker/services/RecentGames.php" />
         <option value="$PROJECT_DIR$/worker/Request.php" />
         <option value="$PROJECT_DIR$/worker/test.php" />
         <option value="$PROJECT_DIR$/worker/CrunchStatistics.php" />
-        <option value="$PROJECT_DIR$/templates/summoner/profile.html" />
         <option value="$PROJECT_DIR$/worker/DatabaseCleaner.php" />
         <option value="$PROJECT_DIR$/worker/Disponent.php" />
         <option value="$PROJECT_DIR$/worker/ResponseProcessor.php" />
+        <option value="$PROJECT_DIR$/templates/summoner/profile.html" />
+        <option value="$PROJECT_DIR$/public/css/small-business.css" />
       </list>
     </option>
   </component>
@@ -641,7 +666,11 @@
       <created>1389824145754</created>
       <updated>1389824145754</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fixxed css bug&#10;fixxed storage bug&#10;">
+      <created>1390243651127</created>
+      <updated>1390243651127</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -650,20 +679,20 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704994" sideWeight="0.49911818" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06980656" sideWeight="0.6220703" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06980656" sideWeight="0.3779297" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20898438" sideWeight="0.6718266" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.045416318" sideWeight="0.6220703" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.045416318" sideWeight="0.3779297" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704994" sideWeight="0.49911818" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -702,7 +731,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="time issues fixed, disponent running" />
     <MESSAGE value="components added, first deploy&#10;" />
     <MESSAGE value="bla&#10;" />
     <MESSAGE value="Added new Domain Models&#10;Tables still to be inserted&#10;" />
@@ -727,7 +755,8 @@
     <MESSAGE value="added champion icons" />
     <MESSAGE value="cleared data&#10;updated to v1.3&#10;" />
     <MESSAGE value="fixxed css bug&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixxed css bug&#10;" />
+    <MESSAGE value="fixxed css bug&#10;fixxed storage bug&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixxed css bug&#10;fixxed storage bug&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,11 +892,6 @@
         <state line="152" column="10" selection-start="5594" selection-end="5594" vertical-scroll-proportion="0.34464043" vertical-offset="1667" max-vertical-offset="8330" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/summoner/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="797" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/ChampionCategoryRelation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="132" selection-end="132" vertical-scroll-proportion="0.204" vertical-offset="0" max-vertical-offset="750" />
@@ -952,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/small-business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="326" selection-end="326" vertical-scroll-proportion="0.20182648" vertical-offset="0" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="30" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="34136">
@@ -987,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/summoner/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="131" selection-start="1306" selection-end="1306" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/DatabaseCleaner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="50" selection-start="297" selection-end="297" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="476">
@@ -1012,14 +1022,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/ResponseProcessor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="20" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.6578171" vertical-offset="1235" max-vertical-offset="2601">
+        <state line="142" column="128" selection-start="5266" selection-end="5315" vertical-scroll-proportion="-31.923077" vertical-offset="1584" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/summoner/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/Disponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="43" selection-start="2024" selection-end="2024" vertical-scroll-proportion="0.66635513" vertical-offset="222" max-vertical-offset="1292">
+        <state line="60" column="43" selection-start="2024" selection-end="2024" vertical-scroll-proportion="-27.461538" vertical-offset="221" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/small-business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="698" selection-end="698" vertical-scroll-proportion="0.65323335" vertical-offset="0" max-vertical-offset="1067">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/summoner/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="30" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.7083754" vertical-offset="454" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
