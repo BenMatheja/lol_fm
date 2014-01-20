@@ -118,7 +118,9 @@ class ResponseProcessor
         $decoded = $this->process($response);
         if ($decoded != null) {
             $summoner = Model::factory('Summoner')->where('id', $id)->find_one();
-            $summoner->name = $decoded['name'];
+            if($decoded['name'] != null){
+                $summoner->name = $decoded['name'];
+            }
             $summoner->summoner_level = $decoded['summonerLevel'];
             $summoner->profile_icon_id = $decoded['profileIconId'];
             $summoner->riot_id = $decoded['id'];

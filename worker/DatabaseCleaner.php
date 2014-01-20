@@ -14,7 +14,7 @@ class DatabaseCleaner{
     }
 
     private function cleanJobs(){
-        $query = ORM::raw_execute('DELETE FROM jobs where fulfilled = 1');
+        $query = ORM::raw_execute('DELETE FROM job where fulfilled = 1');
     }
 
 

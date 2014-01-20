@@ -60,13 +60,13 @@ class Disponent
             }
             //Resolve names to summoner ids
             if ($sum['name'] != null && $sum['riot_id'] == null) {
-                $new_job = Model::Factory('Job')->create();
+                $new_job3 = Model::Factory('Job')->create();
                 $service = ORM::for_table('service')->where('name', 'SummonerIdByName')->find_one();
-                $new_job->service_id = $service->id;
-                $new_job->strategy = $service->strategy;
-                $new_job->param = $sum['name'];
-                $new_job->summoner_id = $sum['id'];
-                $new_job->save();
+                $new_job3->service_id = $service->id;
+                $new_job3->strategy = $service->strategy;
+                $new_job3->param = $sum['name'];
+                $new_job3->summoner_id = $sum['id'];
+                $new_job3->save();
             }
         }
     }
