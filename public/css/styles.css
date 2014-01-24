@@ -29,6 +29,14 @@ table td:last-child {
 
 }
 
+header {
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
 @-webkit-keyframes slideOutUp { 0% { -webkit-transform: translateY(0); transform: translateY(0); } 100% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); } } @keyframes slideOutUp { 0% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } 100% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); } } .slideUp { -webkit-animation-name: slideOutUp; animation-name: slideOutUp; }
