@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11ee84d0-bfde-49e7-a949-f05ab87035ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/headroom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/own.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/small-business.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/worker/test.php" afterPath="$PROJECT_DIR$/worker/doc/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/j4mie/paris" afterPath="$PROJECT_DIR$/vendor/j4mie/paris" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Summoner.php" afterPath="$PROJECT_DIR$/models/Summoner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/summoner/profile.html" afterPath="$PROJECT_DIR$/templates/summoner/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/services.php" afterPath="$PROJECT_DIR$/include/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lol_fm.iws" />
@@ -42,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="17" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
+            <state line="50" column="5" selection-start="888" selection-end="888" vertical-scroll-proportion="-0.23214285" vertical-offset="880" max-vertical-offset="1890">
               <folding />
             </state>
           </provider>
@@ -64,15 +55,6 @@
         <entry file="file://$PROJECT_DIR$/models/SummonerStatistic.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/worker/doc/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.5317164" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -616,16 +598,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/models/Service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Service.php">
+    <entry file="file://$PROJECT_DIR$/worker/doc/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+        <state line="19" column="29" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.5317164" vertical-offset="0" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
@@ -637,9 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/doc/test.php">
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.5317164" vertical-offset="0" max-vertical-offset="1110">
+        <state line="50" column="5" selection-start="888" selection-end="888" vertical-scroll-proportion="-0.23214285" vertical-offset="880" max-vertical-offset="1890">
           <folding />
         </state>
       </provider>
