@@ -20,11 +20,6 @@
 <div class="row col-xs-8 col-xs-offset-2">
     <div class="row">
         <table class="table table-bordered table-hover">
-            <tr>
-                <th>Cpicture</th>
-                <th>inform</th>
-                <th>stats</th>
-            </tr>
             {% for game in games %}
             <tr class={% if game.win==
             1 %}
@@ -33,7 +28,7 @@
             "tr-defeated"
             {% endif %}
             >
-            {% set ChampionImage = '/img/champion_icons/' ~ game.name ~ '_Square_0.png' %}
+            {% set ChampionImage = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/champion/' ~ game.name ~ '.png' %}
             {% set GameIcon0 = itemSource ~ game.item0 ~'.png' %}
             {% set GameIcon1 = itemSource ~ game.item1 ~'.png' %}
             {% set GameIcon2 = itemSource ~ game.item2 ~'.png' %}
@@ -41,7 +36,6 @@
             {% set GameIcon4 = itemSource ~ game.item4 ~'.png' %}
             {% set GameIcon5 = itemSource ~ game.item5 ~'.png' %}
             {% set GameIcon6 = itemSource ~ game.item6 ~'.png' %}
-
             <td><img class="img-responsive" src={{ ChampionImage }}></td>
             <td>{{game.game_end_date}} K: {{game.champions_killed}} - D:{{game.num_deaths}} - A:{{game.assists}} -
                 {{game.minions_killed}} CS
@@ -69,11 +63,9 @@
                     {% endif %}
                 </div>
             </td>
-
             <td>{{game.game_mode}} {{game.sub_type}}</td>
             </tr>
             {% endfor %}
-
         </table>
     </div>
 </div>
