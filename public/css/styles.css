@@ -22,19 +22,23 @@ table td:last-child {
     position: relative;
     max-height: 4px;
     min-height: 4px;
-    background-color: rgba(8, 219, 211, 0.83);
+    background-color: rgba(226, 99, 14, 0.83);
 }
 
 .statsTable {
 
 }
 
+.slideUp {
+    display:none;
+}
+
 .tr-victorious {
-    background-color: rgba(0, 255, 102, 0.16);
+    background-color: rgba(0, 255, 102, 0.44);
 }
 
 .tr-defeated {
- background-color: rgba(255, 0, 0, 0.07)
+ background-color: rgba(255, 0, 0, 0.44)
 }
 
 .imgcontainer img {

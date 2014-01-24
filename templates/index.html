@@ -13,7 +13,7 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="/css/small-business.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <!-- include fontAwesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -23,6 +23,7 @@
 <body>
 
 <!-- Sidebar -->
+<header class="headroom">
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -36,6 +37,7 @@
                 <h3>{{ title }}</h3>
             </a>
         </div>
+
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -55,6 +57,7 @@
     </div>
     <!-- /.container -->
 </nav>
+</header>
 
 <div id="page-wrapper">
     <div class="page-header">
@@ -77,13 +80,13 @@
 
 </div>
 
-<!-- JavaScript -->
+<!-- JavaScript pre-packaged -->
 <script src="/js/jquery-1.10.2.js"></script>
 <script src="/js/bootstrap.js"></script>
+<script src="/js/headroom.min.js"></script>
+<!-- own Specific Plugins -->
+<script src="/js/own.js"></script>
 
-<!-- Page Specific Plugins -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
 <!--
 <script src="/js/tablesorter/jquery.tablesorter.js"></script>
 <script src="/js/tablesorter/tables.js"></script>
