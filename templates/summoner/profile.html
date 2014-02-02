@@ -1,8 +1,9 @@
 {% extends "profile.html" %}
 
 {% block main %}
-{% set imageSource = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/profileicon/' ~ summoner.profile_icon_id ~ '.png' %}
-{% set itemSource = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/item/' %}
+{% set imageSource = 'http://ddragon.leagueoflegends.com/cdn/4.1.2/img/profileicon/' ~ summoner.profile_icon_id ~ '.png' %}
+{% set itemSource = 'http://ddragon.leagueoflegends.com/cdn/4.1.2/img/item/' %}
+{% set spellSource = 'http://lkimg.zamimg.com/images/spells/' %}
 
 <div class="col-xs-8 col-xs-offset-2 row">
     <div class="col-xs-8">
@@ -28,7 +29,7 @@
             "tr-defeated"
             {% endif %}
             >
-            {% set ChampionImage = 'http://ddragon.leagueoflegends.com/cdn/3.15.5/img/champion/' ~ game.name ~ '.png' %}
+            {% set ChampionImage = 'http://ddragon.leagueoflegends.com/cdn/4.1.2/img/champion/' ~ game.name ~ '.png' %}
             {% set GameIcon0 = itemSource ~ game.item0 ~'.png' %}
             {% set GameIcon1 = itemSource ~ game.item1 ~'.png' %}
             {% set GameIcon2 = itemSource ~ game.item2 ~'.png' %}
@@ -36,6 +37,9 @@
             {% set GameIcon4 = itemSource ~ game.item4 ~'.png' %}
             {% set GameIcon5 = itemSource ~ game.item5 ~'.png' %}
             {% set GameIcon6 = itemSource ~ game.item6 ~'.png' %}
+
+            {% set summSpell1 = spellSource ~ game.spell_1 ~'.png' %}
+            {% set summSpell2 = spellSource ~ game.spell_2 ~'.png' %}
             <td><img class="img-responsive" src={{ ChampionImage }}></td>
             <td>{{ date_difference(game.game_end_date) }} ago | K: {{game.champions_killed}} - D:{{game.num_deaths}} - A:{{game.assists}} -
                 {{game.minions_killed}} CS
@@ -63,7 +67,14 @@
                     {% endif %}
                 </div>
             </td>
-            <td>{{game.game_mode}} {{game.sub_type}}</td>
+
+            <td>{{game.game_mode}} {{game.sub_type}}
+                <div class="imgcontainer">
+                <img class="" src={{summSpell1}}>
+                <img class="" src={{summSpell2}}>
+                </div>
+            </td>
+
             </tr>
             {% endfor %}
         </table>

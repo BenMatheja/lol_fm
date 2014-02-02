@@ -20,5 +20,6 @@ $app->get(
             'games' => $games
 
         ));
+       // var_dump($games);
         $app->render('summoner/profile.html');
     });
