@@ -123,7 +123,9 @@ class ResponseProcessor
             }
             $summoner->summoner_level = $decoded['summonerLevel'];
             $summoner->profile_icon_id = $decoded['profileIconId'];
-            $summoner->riot_id = $decoded['id'];
+            if($decoded['id'] != null){
+                $summoner->riot_id = $decoded['id'];
+            }
             $summoner->save();
             return true;
         } else return false;

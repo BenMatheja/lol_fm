@@ -67,7 +67,7 @@ class Worker
 
     private function loadJobs()
     {
-        $jobs = Model::factory('Job')->order_by_asc('inserted')->where('fulfilled', 0)->limit(10)->find_many();
+        $jobs = Model::factory('Job')->order_by_desc('priority')->where('fulfilled', 0)->limit(10)->find_many();
         $this->jobs = $jobs;
     }
 
