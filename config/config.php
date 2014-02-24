@@ -18,9 +18,9 @@ return array(
         'db.dsn'              => 'sqlite:' . $basedir . 'db/sqlite.db',
     */
 // MySQL
-    'db.dsn'             => 'mysql:host=suchtundordnung.de;dbname=lol_fm',
-    'db.username'        => 'db_lol_remote',
-    'db.password'        => 'db_suo_lol',
+    'db.dsn'             => '',
+    'db.username'        => '',
+    'db.password'        => '',
 
 // Application paths
     'path.routes'         => $basedir . 'routes/',
