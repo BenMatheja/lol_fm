@@ -10,7 +10,7 @@ class ApiEndpoint {
 
 	public function __construct(){
 		$this->registered_services = array();
-		$this->api_key =  "35da3603-59cc-4b24-8b87-8accc987c528";
+		$this->api_key =  "";
 		$this->api_head = "http://prod.api.pvp.net/api/lol/euw";
 		$this->api_tail = "?api_key=";
         $this->addAvailableServices();

@@ -15,9 +15,9 @@ require_once DIR_BASE.'../vendor/j4mie/paris/paris.php';
 /**
  * Configuration of idiORM
  */
-ORM::configure('mysql:host=suchtundordnung.de;dbname=lol_fm');
-ORM::configure('username', 'db_lol_remote');
-ORM::configure('password', 'db_suo_lol');
+ORM::configure('');
+ORM::configure('username', '');
+ORM::configure('password', '');
 /**
  * default_timezone set to Europe/Berlin
  */
