@@ -1,6 +1,5 @@
 #LoL FM - social online profile
-35da3603-59cc-4b24-8b87-8accc987c528
-API-KEY
+Crawler for riot API
 
 500 req every 10 min
 50 req every 10 sec
