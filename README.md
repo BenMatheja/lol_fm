@@ -1,7 +1,7 @@
 #LoL FM - social online profile
 
-Crawler for riot API using PHP, Curl & Cronjobs
-Modular Service Architecture - Integrated DB-based Jobcontrol
+* Crawler for riot API using PHP, Curl & Cronjobs
+* Modular Service Architecture - Integrated DB-based Jobcontrol
 
 Proof of Concept
 ----------------
